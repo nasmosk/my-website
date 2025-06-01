@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Moskovchenko Anastasiia - Product Coach Who Delivers Results</title>
-    <meta name="description" content="Expert product management coaching from Anastasiia Moskovchenko. 100+ PMs landed roles at Yandex, VK, Visa. Featured in Forbes, HackerNoon.">
+    <title>Product Trends - Coaching PMs to Success, Consulting Companies to Excellence</title>
+    <meta name="description" content="Expert product management coaching and consulting. 100+ PMs landed roles at Yandex, VK, Visa. Transform your PM career or build exceptional product teams.">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%231a4b3a'/%3E%3Ctext x='50' y='65' font-family='Arial,sans-serif' font-size='50' font-weight='bold' text-anchor='middle' fill='%23c4f36b'%3EPT%3C/text%3E%3C/svg%3E">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ccircle cx='50' cy='50' r='45' fill='%231a4b3a'/%3E%3Ctext x='50' y='65' font-family='Arial,sans-serif' font-size='50' font-weight='bold' text-anchor='middle' fill='%23c4f36b'%3EPT%3C/text%3E%3C/svg%3E">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,7 +14,7 @@
     <style>
         :root {
             /* Enhanced Color System */
-            --color-primary-900: #0f3027;
+            --color-primary-900: #0a2618;
             --color-primary-800: #1a4b3a;
             --color-primary-700: #256b4f;
             --color-primary-600: #2d7a5a;
@@ -32,16 +34,16 @@
             --color-pink-400: #d4a6ab;
             --color-pink-300: #ebb5b9;
 
-            --color-neutral-900: #111827;
-            --color-neutral-800: #1f2937;
-            --color-neutral-700: #374151;
-            --color-neutral-600: #4b5563;
-            --color-neutral-500: #6b7280;
-            --color-neutral-400: #9ca3af;
-            --color-neutral-300: #d1d5db;
-            --color-neutral-200: #e5e7eb;
-            --color-neutral-100: #f3f4f6;
-            --color-neutral-50: #f9fafb;
+            --color-neutral-900: #0f172a;
+            --color-neutral-800: #1e293b;
+            --color-neutral-700: #334155;
+            --color-neutral-600: #475569;
+            --color-neutral-500: #64748b;
+            --color-neutral-400: #94a3b8;
+            --color-neutral-300: #cbd5e1;
+            --color-neutral-200: #e2e8f0;
+            --color-neutral-100: #f1f5f9;
+            --color-neutral-50: #f8fafc;
 
             /* Enhanced Typography System */
             --font-family-display: 'Inter', system-ui, -apple-system, sans-serif;
@@ -57,7 +59,7 @@
             --font-size-4xl: clamp(2.25rem, 2rem + 2vw, 3rem);
             --font-size-5xl: clamp(3rem, 2.5rem + 2.5vw, 4rem);
 
-            /* Enhanced Spacing System */
+            /* Optimized Spacing System */
             --space-1: 0.25rem;
             --space-2: 0.5rem;
             --space-3: 0.75rem;
@@ -70,25 +72,36 @@
             --space-16: 4rem;
             --space-20: 5rem;
             --space-24: 6rem;
+            --space-32: 8rem;
 
             /* Enhanced Effects */
-            --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+            --shadow-sm: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
             --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
             --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
             --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
             --shadow-2xl: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+            --shadow-inner: inset 0 2px 4px 0 rgb(0 0 0 / 0.05);
 
             --radius-sm: 0.375rem;
             --radius-md: 0.5rem;
             --radius-lg: 0.75rem;
             --radius-xl: 1rem;
             --radius-2xl: 1.5rem;
+            --radius-3xl: 2rem;
             --radius-full: 9999px;
 
             /* Enhanced Transitions */
             --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
             --transition-base: 300ms cubic-bezier(0.4, 0, 0.2, 1);
             --transition-slow: 500ms cubic-bezier(0.4, 0, 0.2, 1);
+            --transition-bounce: 600ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+
+            /* Enhanced Gradients */
+            --gradient-primary: linear-gradient(135deg, var(--color-primary-600) 0%, var(--color-primary-800) 100%);
+            --gradient-accent: linear-gradient(135deg, var(--color-accent-500) 0%, var(--color-accent-400) 100%);
+            --gradient-mesh: radial-gradient(at 40% 20%, var(--color-accent-500) 0px, transparent 50%),
+            radial-gradient(at 80% 0%, var(--color-pink-500) 0px, transparent 50%),
+            radial-gradient(at 0% 50%, var(--color-primary-400) 0px, transparent 50%);
 
             /* Container Queries */
             --container-xs: 20rem;
@@ -127,6 +140,76 @@
             overflow-x: hidden;
         }
 
+        /* Loading Screen */
+        .loading-screen {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--color-primary-900);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            transition: opacity 0.5s ease-out;
+        }
+
+        .loading-screen.loaded {
+            opacity: 0;
+            pointer-events: none;
+        }
+
+        .loader {
+            width: 80px;
+            height: 80px;
+            position: relative;
+        }
+
+        .loader-dot {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background: var(--color-accent-500);
+            border-radius: 50%;
+            animation: loader-dots 2s ease-in-out infinite;
+        }
+
+        .loader-dot:nth-child(1) {
+            top: 0;
+            left: 30px;
+            animation-delay: 0s;
+        }
+
+        .loader-dot:nth-child(2) {
+            top: 30px;
+            right: 0;
+            animation-delay: 0.2s;
+        }
+
+        .loader-dot:nth-child(3) {
+            bottom: 0;
+            left: 30px;
+            animation-delay: 0.4s;
+        }
+
+        .loader-dot:nth-child(4) {
+            top: 30px;
+            left: 0;
+            animation-delay: 0.6s;
+        }
+
+        @keyframes loader-dots {
+            0%, 100% {
+                transform: scale(0.8);
+                opacity: 0.5;
+            }
+            50% {
+                transform: scale(1.2);
+                opacity: 1;
+            }
+        }
+
         /* Enhanced Focus Management */
         :focus-visible {
             outline: 2px solid var(--color-accent-500);
@@ -150,6 +233,39 @@
 
         .skip-link:focus {
             top: 6px;
+        }
+
+        /* Interactive Cursor */
+        .cursor-dot {
+            position: fixed;
+            width: 8px;
+            height: 8px;
+            background: var(--color-accent-500);
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 9998;
+            transform: translate(-50%, -50%);
+            transition: transform 0.3s ease, opacity 0.3s ease;
+        }
+
+        .cursor-ring {
+            position: fixed;
+            width: 30px;
+            height: 30px;
+            border: 2px solid var(--color-accent-500);
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 9997;
+            transform: translate(-50%, -50%);
+            transition: all 0.3s ease;
+            opacity: 0.5;
+        }
+
+        .cursor-ring.hover {
+            width: 50px;
+            height: 50px;
+            border-color: var(--color-pink-500);
+            background: rgba(196, 243, 107, 0.1);
         }
 
         /* Enhanced Container System */
@@ -191,7 +307,8 @@
             overflow: hidden;
             user-select: none;
             -webkit-tap-highlight-color: transparent;
-            border-radius: var(--radius-full);
+            border-radius: var(--radius-2xl);
+            backdrop-filter: blur(10px);
         }
 
         .btn::before {
@@ -201,7 +318,7 @@
             left: -100%;
             width: 100%;
             height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
             transition: left var(--transition-slow);
         }
 
@@ -210,42 +327,53 @@
         }
 
         .btn-primary {
-            background: var(--color-accent-500);
+            background: var(--gradient-accent);
             color: var(--color-primary-800);
-            padding: var(--space-3) var(--space-6);
-            font-size: var(--font-size-base);
-            box-shadow: var(--shadow-md);
+            padding: var(--space-3) var(--space-5);
+            font-size: var(--font-size-sm);
+            box-shadow: var(--shadow-sm), 0 0 0 1px rgba(255,255,255,0.1);
+            font-weight: 700;
+            transform-style: preserve-3d;
+            transition: all 0.3s ease;
         }
 
         .btn-primary:hover {
-            background: var(--color-accent-400);
             transform: translateY(-2px);
-            box-shadow: var(--shadow-lg);
+            box-shadow: var(--shadow-md), 0 0 15px rgba(196, 243, 107, 0.4);
         }
 
         .btn-primary:active {
-            transform: translateY(0);
-            box-shadow: var(--shadow-md);
+            transform: translateY(0) scale(0.98);
+            box-shadow: var(--shadow-lg);
         }
 
         .btn-large {
-            padding: var(--space-5) var(--space-12);
-            font-size: var(--font-size-lg);
-            font-weight: 700;
+            padding: var(--space-3) var(--space-6);
+            font-size: var(--font-size-sm);
+            font-weight: 800;
+            border-radius: var(--radius-2xl);
         }
 
         .btn-secondary {
-            background: transparent;
+            background: rgba(255,255,255,0.1);
             color: white;
-            border: 2px solid white;
-            padding: var(--space-3) var(--space-6);
+            border: 2px solid rgba(255,255,255,0.3);
+            padding: var(--space-3) var(--space-5);
+            backdrop-filter: blur(10px);
+            font-size: var(--font-size-sm);
+            font-weight: 700;
         }
 
         .btn-secondary:hover {
-            background: white;
-            color: var(--color-primary-800);
+            background: rgba(255,255,255,0.2);
+            border-color: rgba(255,255,255,0.6);
             transform: translateY(-2px);
-            box-shadow: var(--shadow-lg);
+            box-shadow: var(--shadow-xl);
+        }
+
+        /* Magnetic Button Effect */
+        .btn-magnetic {
+            transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
         /* Enhanced Badge Component */
@@ -261,25 +389,27 @@
             font-weight: 600;
             margin-bottom: var(--space-4);
             box-shadow: var(--shadow-sm);
-            animation: badge-glow 2s ease-in-out infinite alternate;
-        }
-
-        @keyframes badge-glow {
-            0% { box-shadow: var(--shadow-sm); }
-            100% { box-shadow: 0 0 20px rgba(196, 243, 107, 0.3); }
         }
 
         /* Enhanced Header */
         .header {
-            background: var(--color-primary-800);
+            background: rgba(26, 75, 58, 0.95);
             color: white;
-            padding: var(--space-4) 0;
-            position: sticky;
+            padding: var(--space-5) 0;
+            position: fixed;
             top: 0;
+            left: 0;
+            right: 0;
             z-index: 100;
-            box-shadow: var(--shadow-lg);
-            backdrop-filter: blur(10px);
+            box-shadow: var(--shadow-xl);
+            backdrop-filter: blur(20px);
             border-bottom: 1px solid rgba(255,255,255,0.1);
+            transition: all 0.3s ease;
+        }
+
+        .header.scrolled {
+            padding: var(--space-3) 0;
+            background: rgba(26, 75, 58, 0.98);
         }
 
         .nav {
@@ -289,51 +419,76 @@
         }
 
         .logo {
-            font-size: var(--font-size-xl);
-            font-weight: 800;
+            font-size: var(--font-size-2xl);
+            font-weight: 900;
             color: var(--color-accent-500);
             text-decoration: none;
-            transition: transform var(--transition-base);
+            transition: all var(--transition-base);
+            background: var(--gradient-accent);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            position: relative;
+        }
+
+        .logo::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 3px;
+            background: var(--gradient-accent);
+            transition: width 0.3s ease;
+        }
+
+        .logo:hover::after {
+            width: 100%;
         }
 
         .logo:hover {
             transform: scale(1.05);
+            filter: drop-shadow(0 0 10px rgba(196, 243, 107, 0.5));
         }
 
         .nav-menu {
             display: flex;
             list-style: none;
-            gap: var(--space-8);
+            gap: var(--space-10);
             margin: 0;
         }
 
         .nav-menu a {
-            color: white;
+            color: rgba(255,255,255,0.9);
             text-decoration: none;
             font-weight: 500;
             position: relative;
             transition: all var(--transition-base);
-            padding: var(--space-2) 0;
+            padding: var(--space-3) var(--space-4);
+            border-radius: var(--radius-lg);
         }
 
         .nav-menu a::after {
             content: '';
             position: absolute;
-            bottom: 0;
-            left: 0;
+            bottom: -2px;
+            left: 50%;
             width: 0;
             height: 2px;
-            background: var(--color-accent-500);
-            transition: width var(--transition-base);
+            background: var(--gradient-accent);
+            transition: all var(--transition-base);
+            transform: translateX(-50%);
+            border-radius: var(--radius-full);
         }
 
         .nav-menu a:hover::after {
-            width: 100%;
+            width: 80%;
         }
 
         .nav-menu a:hover {
             color: var(--color-accent-500);
-            transform: translateY(-1px);
+            background: rgba(255,255,255,0.05);
+            transform: translateY(-2px);
         }
 
         .mobile-menu-btn {
@@ -348,16 +503,39 @@
             transition: all var(--transition-base);
         }
 
+        .nav-menu a.linkedin-icon {
+            background: rgba(255,255,255,0.1);
+            width: 40px;
+            height: 40px;
+            display: flex !important;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            padding: 0;
+            transition: all var(--transition-base);
+        }
+
+        .nav-menu a.linkedin-icon:hover {
+            background: rgba(255,255,255,0.2);
+            color: var(--color-accent-500);
+            transform: translateY(-2px) scale(1.1);
+        }
+
+        .nav-menu a.linkedin-icon::after {
+            display: none;
+        }
+
         .mobile-menu-btn:hover {
             background: rgba(255,255,255,0.1);
             transform: scale(1.1);
         }
 
-        /* Enhanced Hero Section */
+        /* Enhanced Hero Section - Full Screen with Particles */
         .hero {
             background: linear-gradient(135deg, var(--color-primary-800) 0%, var(--color-primary-900) 100%);
             color: white;
-            padding: var(--space-20) 0;
+            padding-top: calc(80px + var(--space-10));
+            padding-bottom: var(--space-10);
             position: relative;
             overflow: hidden;
             min-height: 100vh;
@@ -365,20 +543,62 @@
             align-items: center;
         }
 
+        /* Animated Background Gradient */
         .hero::before {
             content: '';
             position: absolute;
-            top: 0;
-            right: -50%;
-            width: 100%;
-            height: 100%;
-            background: radial-gradient(ellipse at center, rgba(196, 243, 107, 0.1) 0%, transparent 70%);
-            animation: hero-glow 8s ease-in-out infinite alternate;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle at 20% 80%, rgba(196, 243, 107, 0.2) 0%, transparent 50%),
+            radial-gradient(circle at 80% 20%, rgba(228, 193, 197, 0.2) 0%, transparent 50%),
+            radial-gradient(circle at 40% 40%, rgba(196, 243, 107, 0.1) 0%, transparent 50%);
+            animation: gradient-rotate 20s linear infinite;
         }
 
-        @keyframes hero-glow {
-            0% { transform: translateX(0) scale(1); opacity: 0.5; }
-            100% { transform: translateX(20px) scale(1.1); opacity: 0.8; }
+        @keyframes gradient-rotate {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        /* Particle System */
+        .particles {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .particle {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: var(--color-accent-500);
+            border-radius: 50%;
+            opacity: 0;
+            animation: float-up 10s linear infinite;
+        }
+
+        @keyframes float-up {
+            0% {
+                opacity: 0;
+                transform: translateY(100vh) scale(0);
+            }
+            10% {
+                opacity: 1;
+                transform: translateY(90vh) scale(1);
+            }
+            90% {
+                opacity: 1;
+                transform: translateY(10vh) scale(1);
+            }
+            100% {
+                opacity: 0;
+                transform: translateY(0vh) scale(0);
+            }
         }
 
         .hero-content {
@@ -391,27 +611,7 @@
         }
 
         .hero-text {
-            animation: fade-in-up 1s ease-out;
-        }
-
-        .hero-text h1 {
-            font-family: var(--font-family-display);
-            font-size: var(--font-size-5xl);
-            font-weight: 900;
-            margin-bottom: var(--space-6);
-            line-height: 1.1;
-            background: linear-gradient(135deg, white 0%, var(--color-accent-500) 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .hero-subtitle {
-            font-size: var(--font-size-lg);
-            margin-bottom: var(--space-8);
-            opacity: 0.9;
-            line-height: 1.6;
-            max-width: 500px;
+            animation: hero-text-enter 1s ease-out;
         }
 
         .hero-buttons {
@@ -423,7 +623,111 @@
         .hero-image {
             position: relative;
             text-align: center;
-            animation: fade-in-up 1s ease-out 0.3s both;
+            animation: hero-image-enter 1s ease-out 0.3s both;
+        }
+
+        @keyframes hero-text-enter {
+            from {
+                opacity: 0;
+                transform: translateX(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .hero-text h1 {
+            font-family: var(--font-family-display);
+            font-size: var(--font-size-4xl);
+            font-weight: 900;
+            margin-bottom: var(--space-4);
+            line-height: 1.15;
+            background: linear-gradient(135deg, white 0%, var(--color-accent-500) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: text-glow 3s ease-in-out infinite alternate;
+        }
+
+        @media (min-width: 768px) {
+            .hero-text h1 {
+                font-size: var(--font-size-5xl);
+            }
+        }
+
+        @keyframes text-glow {
+            from {
+                filter: drop-shadow(0 0 20px rgba(196, 243, 107, 0.3));
+            }
+            to {
+                filter: drop-shadow(0 0 30px rgba(196, 243, 107, 0.5));
+            }
+        }
+
+        .hero-subtitle {
+            font-size: var(--font-size-xl);
+            margin-bottom: var(--space-8);
+            margin-top: var(--space-4);
+            opacity: 0.9;
+            line-height: 1.6;
+            max-width: 600px;
+            position: relative;
+            color: rgba(255,255,255,0.9);
+        }
+
+        .typewriter {
+            display: inline-block;
+            animation: typing 3s steps(40, end);
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 3px solid var(--color-accent-500);
+            animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+        }
+
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 100% }
+        }
+
+        @keyframes blink-caret {
+            from, to { border-color: transparent }
+            50% { border-color: var(--color-accent-500); }
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: var(--space-5);
+            flex-wrap: wrap;
+        }
+
+        .hero-image {
+            position: relative;
+            text-align: center;
+            animation: hero-image-enter 1s ease-out 0.3s both;
+        }
+
+        @keyframes hero-image-enter {
+            from {
+                opacity: 0;
+                transform: translateX(50px) scale(0.9);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0) scale(1);
+            }
+        }
+
+        /* 3D Image Effect */
+        .hero-image-wrapper {
+            position: relative;
+            display: inline-block;
+            transform-style: preserve-3d;
+            transition: transform 0.3s ease;
+        }
+
+        .hero-image-wrapper:hover {
+            transform: rotateY(5deg) rotateX(-5deg);
         }
 
         .hero-image::before {
@@ -451,11 +755,62 @@
             height: auto;
             border-radius: var(--radius-2xl);
             box-shadow: var(--shadow-2xl);
-            transition: transform var(--transition-slow);
+            transition: all var(--transition-slow);
+            filter: drop-shadow(0 20px 40px rgba(0,0,0,0.3));
         }
 
         .hero-image:hover img {
             transform: scale(1.05) rotate(2deg);
+            filter: drop-shadow(0 30px 60px rgba(0,0,0,0.4));
+        }
+
+        /* Floating shapes */
+        .floating-shape {
+            position: absolute;
+            opacity: 0.1;
+            animation: float-random 20s ease-in-out infinite;
+        }
+
+        .floating-shape:nth-child(1) {
+            top: 20%;
+            left: 10%;
+            width: 80px;
+            height: 80px;
+            background: var(--gradient-accent);
+            border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+            animation-delay: 0s;
+        }
+
+        .floating-shape:nth-child(2) {
+            top: 60%;
+            right: 10%;
+            width: 120px;
+            height: 120px;
+            background: linear-gradient(135deg, var(--color-pink-500), var(--color-accent-500));
+            border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
+            animation-delay: 2s;
+        }
+
+        .floating-shape:nth-child(3) {
+            bottom: 20%;
+            left: 30%;
+            width: 60px;
+            height: 60px;
+            background: var(--gradient-primary);
+            border-radius: 40% 60% 60% 40% / 60% 30% 70% 40%;
+            animation-delay: 4s;
+        }
+
+        @keyframes float-random {
+            0%, 100% {
+                transform: translateY(0) rotate(0deg) scale(1);
+            }
+            33% {
+                transform: translateY(-30px) rotate(120deg) scale(1.1);
+            }
+            66% {
+                transform: translateY(20px) rotate(-120deg) scale(0.9);
+            }
         }
 
         /* Enhanced Animations */
@@ -481,12 +836,50 @@
             transform: translateY(0);
         }
 
-        /* Enhanced Trust Badges */
+        /* Stagger animation for lists */
+        .stagger-animation > * {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: stagger-in 0.5s ease-out forwards;
+        }
+
+        .stagger-animation > *:nth-child(1) { animation-delay: 0.1s; }
+        .stagger-animation > *:nth-child(2) { animation-delay: 0.2s; }
+        .stagger-animation > *:nth-child(3) { animation-delay: 0.3s; }
+        .stagger-animation > *:nth-child(4) { animation-delay: 0.4s; }
+        .stagger-animation > *:nth-child(5) { animation-delay: 0.5s; }
+
+        @keyframes stagger-in {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Enhanced Trust Badges - Animated */
         .trust-badges {
             background: var(--color-accent-500);
-            padding: var(--space-8) 0;
+            padding: var(--space-6) 0;
             border-top: 1px solid rgba(255,255,255,0.2);
             border-bottom: 1px solid rgba(0,0,0,0.1);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .trust-badges::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            animation: shimmer 3s infinite;
+        }
+
+        @keyframes shimmer {
+            0% { left: -100%; }
+            100% { left: 100%; }
         }
 
         .trust-logos {
@@ -495,6 +888,8 @@
             align-items: center;
             gap: var(--space-12);
             flex-wrap: wrap;
+            position: relative;
+            z-index: 2;
         }
 
         .trust-logo {
@@ -506,124 +901,273 @@
             justify-content: center;
             padding: var(--space-2) var(--space-4);
             border-radius: var(--radius-lg);
+            font-weight: 600;
+            color: var(--color-primary-800);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .trust-logo::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            background: rgba(255,255,255,0.2);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            transition: width 0.6s ease, height 0.6s ease;
+        }
+
+        .trust-logo:hover::before {
+            width: 150px;
+            height: 150px;
         }
 
         .trust-logo:hover {
             opacity: 1;
             transform: scale(1.1);
-            background: rgba(255,255,255,0.1);
-            backdrop-filter: blur(10px);
+            z-index: 3;
         }
 
-        /* Enhanced About Section */
+        /* Enhanced About Section - Full Screen with Parallax */
         .about {
-            padding: var(--space-24) 0;
-            background: white;
+            padding: var(--space-12) 0;
+            background: linear-gradient(135deg, #ffffff 0%, var(--color-neutral-50) 50%, #ffffff 100%);
+            position: relative;
+            overflow: hidden;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .about::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: var(--gradient-mesh);
+            opacity: 0.03;
+            animation: slow-rotate 30s linear infinite;
+        }
+
+        @keyframes slow-rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
         }
 
         .about-content {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: var(--space-16);
+            gap: var(--space-20);
             align-items: center;
+            position: relative;
+            z-index: 2;
         }
 
         .about-image {
             position: relative;
         }
 
+        /* Animated blob background */
         .about-image::before {
             content: '';
             position: absolute;
-            top: -30px;
-            left: -30px;
-            width: 250px;
-            height: 250px;
+            top: -40px;
+            left: -40px;
+            width: 300px;
+            height: 300px;
             background: linear-gradient(135deg, var(--color-accent-500), var(--color-pink-500));
             border-radius: 50%;
-            opacity: 0.2;
+            opacity: 0.15;
             z-index: -1;
-            animation: float 6s ease-in-out infinite;
+            animation: morph 8s ease-in-out infinite;
+            filter: blur(60px);
         }
 
-        @keyframes float {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-20px); }
+        @keyframes morph {
+            0%, 100% {
+                transform: translateY(0) scale(1);
+                border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+            }
+            25% {
+                transform: translateY(-20px) scale(1.05);
+                border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+            }
+            50% {
+                transform: translateY(10px) scale(0.95);
+                border-radius: 70% 30% 50% 50% / 30% 70% 50% 50%;
+            }
+            75% {
+                transform: translateY(-10px) scale(1.02);
+                border-radius: 50% 50% 30% 70% / 70% 30% 60% 40%;
+            }
         }
 
         .about-image img {
             width: 100%;
             height: auto;
-            border-radius: var(--radius-2xl);
-            box-shadow: var(--shadow-xl);
+            border-radius: var(--radius-3xl);
+            box-shadow: var(--shadow-2xl), 0 0 40px rgba(196, 243, 107, 0.1);
             transition: all var(--transition-slow);
+            border: 3px solid rgba(255,255,255,0.8);
+            transform-style: preserve-3d;
         }
 
         .about-image:hover img {
-            transform: translateY(-10px);
-            box-shadow: var(--shadow-2xl);
+            transform: translateY(-15px) scale(1.02) rotateY(-5deg) rotateX(5deg);
+            box-shadow: var(--shadow-2xl), 0 0 60px rgba(196, 243, 107, 0.3);
         }
 
         .about-text h2 {
             font-family: var(--font-family-display);
-            font-size: var(--font-size-3xl);
-            font-weight: 800;
-            margin-bottom: var(--space-6);
+            font-size: var(--font-size-4xl);
+            font-weight: 900;
+            margin-bottom: var(--space-2);
             color: var(--color-primary-800);
-            line-height: 1.2;
+            line-height: 1.1;
+            background: linear-gradient(135deg, var(--color-primary-800) 0%, var(--color-primary-600) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Animated underline */
+        .about-text h2::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: var(--gradient-accent);
+            transform: scaleX(0);
+            transform-origin: left;
+            transition: transform 0.6s ease;
+        }
+
+        .about-text.in-view h2::after {
+            transform: scaleX(1);
         }
 
         .about-text p {
-            margin-bottom: var(--space-6);
+            margin-bottom: var(--space-4);
             color: var(--color-neutral-600);
             line-height: 1.7;
+            font-size: var(--font-size-lg);
+            position: relative;
+            opacity: 0;
+            animation: fade-in-up 0.6s ease-out forwards;
+        }
+
+        .about-text p:nth-child(2) { animation-delay: 0.2s; }
+        .about-text p:nth-child(3) { animation-delay: 0.4s; }
+        .about-text p:nth-child(4) { animation-delay: 0.6s; }
+
+        .about-text p:last-of-type {
+            background: linear-gradient(135deg, var(--color-accent-500), var(--color-pink-500));
+            padding: var(--space-6);
+            border-radius: var(--radius-2xl);
+            color: var(--color-primary-800);
+            font-weight: 600;
+            border-left: 4px solid var(--color-primary-800);
+            box-shadow: var(--shadow-lg);
+            backdrop-filter: blur(10px);
+            transform: translateX(-20px);
+            transition: transform 0.3s ease;
+        }
+
+        .about-text p:last-of-type:hover {
+            transform: translateX(0) scale(1.02);
         }
 
         .about-buttons {
             display: flex;
-            gap: var(--space-4);
+            gap: var(--space-6);
             flex-wrap: wrap;
+            margin-top: var(--space-6);
         }
 
-        /* Enhanced Services Section */
+        /* Enhanced Services Section - Interactive Cards */
         .services {
-            padding: var(--space-24) 0;
-            background: var(--color-neutral-50);
+            padding: var(--space-10) 0 var(--space-10) 0;
+            background: linear-gradient(135deg, var(--color-neutral-50) 0%, #ffffff 50%, var(--color-neutral-50) 100%);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .services::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: var(--gradient-mesh);
+            opacity: 0.02;
+            animation: slow-rotate 40s linear infinite reverse;
         }
 
         .services h2 {
             text-align: center;
             font-family: var(--font-family-display);
             font-size: var(--font-size-3xl);
-            font-weight: 800;
+            font-weight: 900;
             margin-bottom: var(--space-4);
             color: var(--color-primary-800);
+            background: linear-gradient(135deg, var(--color-primary-800) 0%, var(--color-primary-600) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            position: relative;
+            z-index: 2;
+            animation: scale-in 0.6s ease-out;
+        }
+
+        @keyframes scale-in {
+            from {
+                transform: scale(0.8);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
         }
 
         .services-subtitle {
             text-align: center;
             color: var(--color-neutral-600);
-            margin-bottom: var(--space-16);
+            margin-bottom: var(--space-10);
             font-size: var(--font-size-lg);
             max-width: 600px;
             margin-left: auto;
             margin-right: auto;
+            position: relative;
+            z-index: 2;
         }
 
         .services-grid {
             display: flex;
             gap: var(--space-4);
-            overflow-x: auto;
-            overflow-y: hidden;
-            scroll-behavior: smooth;
-            padding: var(--space-4) 0 var(--space-8) 0;
-            -webkit-overflow-scrolling: touch;
-            margin-bottom: var(--space-8);
+            padding: var(--space-6) 0;
+            margin-bottom: 0;
             align-items: stretch;
+            position: relative;
+            z-index: 2;
+            justify-content: center;
+            max-width: 1000px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .services-grid::-webkit-scrollbar {
-            height: 8px;
+            height: 10px;
         }
 
         .services-grid::-webkit-scrollbar-track {
@@ -632,7 +1176,7 @@
         }
 
         .services-grid::-webkit-scrollbar-thumb {
-            background: var(--color-accent-500);
+            background: var(--gradient-accent);
             border-radius: var(--radius-full);
         }
 
@@ -640,52 +1184,82 @@
             background: var(--color-accent-400);
         }
 
-        .scroll-hint {
-            text-align: center;
-            margin-top: var(--space-4);
-            color: var(--color-neutral-500);
-            font-size: var(--font-size-sm);
-        }
-
-        @media (min-width: 1600px) {
-            .scroll-hint {
-                display: none;
-            }
-        }
-
-        @media (min-width: 2400px) {
-            .scroll-hint {
-                display: none;
-            }
-        }
-
         .service-card {
-            background: white;
-            padding: var(--space-6);
-            border-radius: var(--radius-xl);
+            background: linear-gradient(135deg, #ffffff 0%, rgba(255,255,255,0.95) 100%);
+            padding: var(--space-4);
+            padding-top: var(--space-6);
+            padding-bottom: var(--space-4);
+            border-radius: var(--radius-2xl);
             text-align: center;
-            box-shadow: var(--shadow-md);
+            box-shadow: var(--shadow-md), 0 0 0 1px rgba(255,255,255,0.5);
             transition: all var(--transition-base);
             position: relative;
-            border: 1px solid var(--color-neutral-200);
+            border: 3px solid transparent;
             overflow: visible;
-            min-width: 280px;
-            max-width: 280px;
+            min-width: 225px;
+            max-width: 225px;
             flex-shrink: 0;
             display: flex;
             flex-direction: column;
-            min-height: 420px;
+            justify-content: space-between;
+            align-items: center;
+            height: 400px;
+            backdrop-filter: blur(20px);
+            transform-style: preserve-3d;
+            transform: perspective(1000px);
+            animation: card-enter 0.5s ease-out both;
         }
+
+        .service-card:nth-child(1) {
+            animation-delay: 0.1s;
+            border-color: var(--color-primary-300);
+            background: linear-gradient(135deg, #ffffff 0%, rgba(240, 248, 255, 0.95) 100%);
+        }
+
+        .service-card:nth-child(2) {
+            animation-delay: 0.2s;
+            border-color: var(--color-pink-400);
+            background: linear-gradient(135deg, rgba(255,245,250,0.98) 0%, rgba(255,240,245,0.95) 100%);
+            box-shadow: var(--shadow-lg), 0 0 30px rgba(228, 193, 197, 0.3);
+            transform: scale(1.05);
+        }
+
+        .service-card:nth-child(3) {
+            animation-delay: 0.3s;
+            border-color: var(--color-accent-400);
+            background: linear-gradient(135deg, rgba(250,255,245,0.98) 0%, rgba(245,255,240,0.95) 100%);
+        }
+
+        .service-card:nth-child(4) {
+            animation-delay: 0.4s;
+            border-color: var(--color-primary-500);
+            background: linear-gradient(135deg, rgba(245,250,255,0.98) 0%, rgba(240,248,255,0.95) 100%);
+        }
+
+        @keyframes card-enter {
+            from {
+                opacity: 0;
+                transform: translateY(20px) scale(0.95);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0) scale(1);
+            }
+        }
+
+        .service-card:nth-child(1) { animation-delay: 0.1s; }
+        .service-card:nth-child(2) { animation-delay: 0.2s; }
+        .service-card:nth-child(3) { animation-delay: 0.3s; }
+        .service-card:nth-child(4) { animation-delay: 0.4s; }
 
         .service-card::before {
             content: '';
             position: absolute;
             top: 0;
             left: 0;
-            right: 0;
             width: 100%;
             height: 4px;
-            background: linear-gradient(90deg, var(--color-accent-500), var(--color-pink-500));
+            background: var(--gradient-accent);
             transform: scaleX(0);
             transform-origin: left;
             transition: transform var(--transition-base);
@@ -697,105 +1271,832 @@
         }
 
         .service-card:hover {
-            transform: translateY(-5px);
-            box-shadow: var(--shadow-lg);
+            transform: translateY(-8px) scale(1.02) rotateX(-5deg);
+            box-shadow: var(--shadow-xl), 0 0 25px rgba(196, 243, 107, 0.2);
+        }
+
+        .service-card:nth-child(1):hover {
+            box-shadow: var(--shadow-xl), 0 0 25px rgba(45, 107, 79, 0.3);
+            border-color: var(--color-primary-500);
+        }
+
+        .service-card:nth-child(3):hover {
+            box-shadow: var(--shadow-xl), 0 0 25px rgba(196, 243, 107, 0.4);
             border-color: var(--color-accent-500);
+        }
+
+        .service-card:nth-child(4):hover {
+            box-shadow: var(--shadow-xl), 0 0 25px rgba(45, 107, 79, 0.4);
+            border-color: var(--color-primary-600);
+        }
+
+        .service-card.highlighted {
+            background: linear-gradient(135deg, rgba(255,245,250,0.98) 0%, rgba(255,240,245,0.95) 100%);
+            border: 3px solid var(--color-pink-400);
+            box-shadow: var(--shadow-lg), 0 0 35px rgba(228, 193, 197, 0.4);
+            transform: scale(1.08);
+            position: relative;
+            z-index: 5;
+        }
+
+        .service-card.highlighted::before {
+            background: linear-gradient(135deg, var(--color-pink-500), var(--color-pink-400));
+        }
+
+        .service-card.highlighted:hover {
+            box-shadow: var(--shadow-xl), 0 0 40px rgba(228, 193, 197, 0.5);
+            border-color: var(--color-pink-500);
+            transform: translateY(-8px) scale(1.05) rotateX(-5deg);
+        }
+
+        .service-card .btn-primary {
+            background: var(--gradient-accent);
+            color: var(--color-primary-800);
+        }
+
+        .service-card:nth-child(1) .btn-primary {
+            background: linear-gradient(135deg, var(--color-primary-500), var(--color-primary-600));
+            color: white;
+        }
+
+        .service-card:nth-child(1) .btn-primary:hover {
+            box-shadow: var(--shadow-md), 0 0 25px rgba(45, 107, 79, 0.6);
+            transform: translateY(-2px);
+        }
+
+        .service-card:nth-child(3) .btn-primary {
+            background: linear-gradient(135deg, var(--color-accent-500), var(--color-accent-400));
+            color: var(--color-primary-800);
+        }
+
+        .service-card:nth-child(3) .btn-primary:hover {
+            box-shadow: var(--shadow-md), 0 0 25px rgba(196, 243, 107, 0.8);
+            transform: translateY(-2px);
+        }
+
+        .service-card:nth-child(4) .btn-primary {
+            background: linear-gradient(135deg, var(--color-primary-600), var(--color-primary-700));
+            color: white;
+        }
+
+        .service-card:nth-child(4) .btn-primary:hover {
+            box-shadow: var(--shadow-md), 0 0 25px rgba(45, 107, 79, 0.7);
+            transform: translateY(-2px);
+        }
+
+        .service-card.highlighted .service-icon {
+            color: var(--color-pink-500);
+        }
+
+        .service-card.highlighted .btn-primary {
+            background: linear-gradient(135deg, var(--color-pink-500), var(--color-pink-400));
+            color: white;
+        }
+
+        .service-card.highlighted .btn-primary:hover {
+            box-shadow: var(--shadow-md), 0 0 25px rgba(228, 193, 197, 0.6);
+            transform: translateY(-2px);
+        }
+
+        /* 3D hover effect */
+        .service-card:hover .service-icon {
+            transform: translateZ(10px) rotate(360deg);
+        }
+
+        .service-icon {
+            font-size: 1.8rem;
+            color: var(--color-accent-500);
+            margin-bottom: var(--space-2);
+            transition: transform 0.6s ease;
+            display: inline-block;
+        }
+
+        .service-card:nth-child(1) .service-icon {
+            color: var(--color-primary-600);
+        }
+
+        .service-card:nth-child(3) .service-icon {
+            color: var(--color-accent-600);
+        }
+
+        .service-card:nth-child(4) .service-icon {
+            color: var(--color-primary-700);
         }
 
         .service-badge {
             position: absolute;
-            top: -12px;
+            top: -10px;
             left: 50%;
             transform: translateX(-50%);
-            background: var(--color-primary-800);
+            background: var(--gradient-primary);
             color: white;
-            padding: var(--space-2) var(--space-4);
+            padding: var(--space-1) var(--space-3);
             border-radius: var(--radius-full);
             font-size: var(--font-size-xs);
-            font-weight: 700;
+            font-weight: 800;
             letter-spacing: 0.5px;
             text-transform: uppercase;
             z-index: 10;
             white-space: nowrap;
+            box-shadow: var(--shadow-sm);
         }
 
-        .service-card.popular .service-badge {
-            background: linear-gradient(135deg, var(--color-accent-500), var(--color-pink-500));
-            color: var(--color-primary-800);
-            animation: popular-pulse 2s ease-in-out infinite;
+        .service-card.popular .service-badge,
+        .service-card.highlighted .service-badge {
+            background: linear-gradient(135deg, var(--color-pink-500), var(--color-pink-400));
+            color: white;
+            box-shadow: var(--shadow-md), 0 0 20px rgba(228, 193, 197, 0.5);
+            animation: pulse-glow 2s ease-in-out infinite;
         }
 
-        @keyframes popular-pulse {
-            0%, 100% { transform: translateX(-50%) scale(1); }
-            50% { transform: translateX(-50%) scale(1.05); }
+        @keyframes pulse-glow {
+            0%, 100% {
+                box-shadow: var(--shadow-md), 0 0 20px rgba(228, 193, 197, 0.5);
+            }
+            50% {
+                box-shadow: var(--shadow-md), 0 0 30px rgba(228, 193, 197, 0.8);
+            }
         }
 
         .service-card h3 {
             font-size: var(--font-size-lg);
-            font-weight: 700;
-            margin: var(--space-5) 0 var(--space-3);
+            font-weight: 800;
+            margin: var(--space-2) 0 var(--space-2);
             color: var(--color-primary-800);
-            line-height: 1.3;
+            line-height: 1.2;
         }
 
         .service-card p {
             color: var(--color-neutral-600);
-            margin-bottom: var(--space-5);
-            line-height: 1.6;
+            margin-bottom: var(--space-3);
+            line-height: 1.4;
+            font-size: var(--font-size-sm);
+            opacity: 0.9;
         }
 
-        .service-features {
-            list-style: none;
-            margin-bottom: var(--space-5);
+        .service-list {
             text-align: left;
+            font-size: var(--font-size-xs);
+            color: var(--color-neutral-600);
+            margin-bottom: var(--space-3);
+            padding-left: var(--space-4);
+            list-style: none;
             flex-grow: 1;
         }
 
-        .service-features li {
+        .service-card-content {
+            flex-grow: 1;
             display: flex;
-            align-items: flex-start;
-            margin-bottom: var(--space-2);
-            color: var(--color-neutral-600);
-            line-height: 1.5;
+            flex-direction: column;
+            justify-content: flex-start;
+            width: 100%;
         }
 
-        .service-features li {
-            display: flex;
-            align-items: flex-start;
-            margin-bottom: var(--space-3);
-            color: var(--color-neutral-600);
-            line-height: 1.5;
+        .service-card .btn {
+            margin-top: auto;
+            margin-bottom: 0;
+            width: 100%;
         }
 
-        .service-features li::before {
-            content: '✓';
+        /* Enhanced Testimonials - Dynamic Carousel */
+        .testimonials {
+            background: var(--gradient-primary);
             color: white;
-            font-weight: bold;
-            margin-right: var(--space-2);
-            background: var(--color-primary-800);
-            width: 20px;
-            height: 20px;
+            padding: var(--space-12) 0;
+            position: relative;
+            overflow: hidden;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+        }
+
+        .testimonials::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: var(--gradient-mesh);
+            opacity: 0.1;
+            animation: slow-rotate 25s linear infinite;
+        }
+
+        /* Animated background shapes */
+        .testimonials::after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 800px;
+            height: 800px;
+            background: radial-gradient(circle, rgba(255,255,255,0.05) 0%, transparent 70%);
+            animation: pulse 8s ease-in-out infinite;
+        }
+
+        .testimonials h2 {
+            text-align: center;
+            font-family: var(--font-family-display);
+            font-size: var(--font-size-4xl);
+            font-weight: 900;
+            margin-bottom: var(--space-6);
+            position: relative;
+            z-index: 2;
+            background: linear-gradient(135deg, white 0%, var(--color-accent-500) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            filter: drop-shadow(0 0 20px rgba(196, 243, 107, 0.3));
+        }
+
+        .testimonials-subtitle {
+            text-align: center;
+            margin-bottom: var(--space-12);
+            opacity: 0.95;
+            position: relative;
+            z-index: 2;
+            font-size: var(--font-size-xl);
+            color: rgba(255,255,255,0.9);
+        }
+
+        .testimonials-container {
+            max-width: 900px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 2;
+            margin-bottom: var(--space-8);
+        }
+
+        .testimonial-card {
+            background: linear-gradient(135deg, rgba(255,255,255,0.98) 0%, rgba(255,255,255,0.95) 100%);
+            color: var(--color-neutral-900);
+            padding: var(--space-8);
+            border-radius: var(--radius-2xl);
+            box-shadow: var(--shadow-lg), 0 0 30px rgba(0,0,0,0.1);
+            border: 2px solid rgba(255,255,255,0.2);
+            display: none;
+            transition: all var(--transition-slow);
+            position: relative;
+            overflow: hidden;
+            backdrop-filter: blur(20px);
+            pointer-events: none; /* Prevent card from blocking dots */
+        }
+
+        .testimonial-card.active {
+            display: block;
+            pointer-events: auto; /* Enable pointer events for active card */
+        }
+        .testimonial-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(196, 243, 107, 0.1), transparent);
+            transition: left var(--transition-slow);
+        }
+
+        .testimonial-card.active:hover {
+            transform: translateY(-10px) scale(1.01);
+            box-shadow: var(--shadow-2xl), 0 0 60px rgba(196, 243, 107, 0.2);
+        }
+
+        .testimonial-card.active:hover::before {
+            left: 100%;
+        }
+
+        @keyframes testimonial-3d-in {
+            from {
+                opacity: 0;
+                transform: translateY(40px) rotateX(-90deg) scale(0.5);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0) rotateX(0deg) scale(1);
+            }
+        }
+
+        .testimonial-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: var(--space-6);
+        }
+
+        .testimonial-avatar {
+            width: 60px;
+            height: 60px;
             border-radius: 50%;
+            margin-right: var(--space-5);
+            background: var(--gradient-accent);
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: var(--font-size-xs);
-            flex-shrink: 0;
-            margin-top: 2px;
-        }
-
-        .service-note {
-            background: linear-gradient(135deg, var(--color-accent-500), var(--color-pink-500));
+            font-weight: 800;
             color: var(--color-primary-800);
-            padding: var(--space-2) var(--space-3);
-            border-radius: var(--radius-lg);
-            font-size: var(--font-size-xs);
-            font-weight: 600;
-            margin-top: var(--space-3);
+            font-size: var(--font-size-lg);
+            box-shadow: var(--shadow-md);
+            flex-shrink: 0;
+            overflow: hidden;
+            border: 2px solid rgba(255,255,255,0.8);
         }
 
-        /* Enhanced Mobile Responsive Design */
+        .testimonial-avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        .testimonial-info h4 {
+            font-weight: 800;
+            margin-bottom: var(--space-2);
+            color: var(--color-primary-800);
+            font-size: var(--font-size-xl);
+        }
+
+        .testimonial-info .title {
+            color: var(--color-neutral-600);
+            font-size: var(--font-size-base);
+            font-weight: 500;
+        }
+
+        .stars {
+            color: #ffd700;
+            margin-bottom: var(--space-4);
+            font-size: var(--font-size-lg);
+            filter: drop-shadow(0 2px 4px rgba(255, 215, 0, 0.3));
+            display: inline-block;
+        }
+
+        .testimonial-text {
+            font-style: italic;
+            line-height: 1.6;
+            margin-bottom: var(--space-5);
+            font-size: var(--font-size-lg);
+            color: var(--color-neutral-700);
+        }
+
+        .testimonial-result {
+            background: var(--gradient-accent);
+            color: var(--color-primary-800);
+            padding: var(--space-4) var(--space-5);
+            border-radius: var(--radius-xl);
+            font-weight: 700;
+            font-size: var(--font-size-base);
+            display: inline-block;
+            box-shadow: var(--shadow-md);
+        }
+
+        /* Enhanced Carousel */
+        .carousel-dots {
+            display: flex;
+            justify-content: center;
+            gap: var(--space-4); /* Increase gap for better clickability */
+            margin-bottom: var(--space-8);
+            position: relative;
+            z-index: 10;
+        }
+
+        button.carousel-dot {
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.4);
+            cursor: pointer;
+            transition: all var(--transition-base);
+            border: 2px solid transparent;
+            position: relative;
+            z-index: 10;
+            padding: 0;
+            outline: none;
+        }
+
+        button.carousel-dot::after {
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            right: -10px;
+            bottom: -10px;
+            cursor: pointer;
+        }
+
+        button.carousel-dot:hover {
+            background: rgba(255,255,255,0.7);
+            transform: scale(1.3);
+            border-color: var(--color-accent-500);
+        }
+
+        button.carousel-dot.active {
+            background: var(--color-accent-500);
+            transform: scale(1.4);
+            border-color: white;
+            box-shadow: 0 0 10px rgba(196, 243, 107, 0.5);
+            animation: dot-pulse 1.5s ease-in-out infinite;
+        }
+
+        @keyframes dot-pulse {
+            0%, 100% {
+                box-shadow: 0 0 10px rgba(196, 243, 107, 0.5);
+            }
+            50% {
+                box-shadow: 0 0 20px rgba(196, 243, 107, 0.8);
+            }
+        }
+
+        /* Community Section - Wild Interactive Design */
+        .resources {
+            padding: var(--space-10) 0;
+            background: linear-gradient(135deg, #0a0a0a 0%, #1a1a1a 50%, #0a0a0a 100%);
+            position: relative;
+            overflow: hidden;
+            margin-bottom: 0; /* Remove any margin */
+        }
+
+        /* Interactive Community Cards */
+        .community-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: var(--space-4);
+            margin-bottom: var(--space-8);
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .community-card-interactive {
+            background: white;
+            padding: var(--space-4);
+            border-radius: var(--radius-xl);
+            transition: all var(--transition-slow);
+            position: relative;
+            overflow: visible;
+            text-align: center;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.3), 0 0 40px rgba(196, 243, 107, 0.2);
+            transform-style: preserve-3d;
+            cursor: pointer;
+        }
+
+        .community-card-interactive:hover {
+            transform: translateY(-12px) scale(1.1) rotateY(10deg) rotateX(-10deg);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4), 0 0 60px rgba(196, 243, 107, 0.5);
+            z-index: 10;
+        }
+
+        /* Enhanced Contact Section - Full Screen */
+        .contact {
+            background: linear-gradient(135deg, var(--color-primary-800) 0%, var(--color-primary-900) 100%);
+            color: white;
+            padding: var(--space-16) 0 var(--space-12) 0;
+            position: relative;
+            overflow: hidden;
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            margin-top: -1px; /* Remove any gap */
+        }
+
+        .contact::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(ellipse at center bottom, rgba(196, 243, 107, 0.1) 0%, transparent 50%);
+            pointer-events: none;
+            animation: breathe 4s ease-in-out infinite;
+        }
+
+        @keyframes breathe {
+            0%, 100% { opacity: 0.5; }
+            50% { opacity: 0.8; }
+        }
+
+        /* Publications Section */
+        .publications {
+            padding: var(--space-12) 0;
+            background: var(--color-neutral-50);
+            position: relative;
+            margin-top: -1px; /* Fix white line */
+        }
+
+        .publications-carousel-container {
+            max-width: 100%;
+            margin: 0 auto;
+            position: relative;
+            padding: 20px 0;
+        }
+
+        .publications-header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding: 0 20px;
+            max-width: var(--container-6xl);
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .publications-header h2 {
+            font-family: var(--font-family-display);
+            font-size: var(--font-size-3xl);
+            font-weight: 900;
+            color: var(--color-primary-800);
+            margin: 0 0 12px 0;
+            background: linear-gradient(135deg, var(--color-primary-800) 0%, var(--color-primary-600) 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .publications-header p {
+            font-size: var(--font-size-lg);
+            color: var(--color-neutral-600);
+            margin: 0;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .publications-carousel-wrapper {
+            overflow-x: auto;
+            overflow-y: hidden;
+            scroll-behavior: smooth;
+            -webkit-overflow-scrolling: touch;
+            padding: 20px 20px 40px 20px;
+            margin: -20px -20px -40px -20px;
+        }
+
+        .publications-carousel-wrapper::-webkit-scrollbar {
+            height: 8px;
+        }
+
+        .publications-carousel-wrapper::-webkit-scrollbar-track {
+            background: var(--color-neutral-200);
+            border-radius: 10px;
+        }
+
+        .publications-carousel-wrapper::-webkit-scrollbar-thumb {
+            background: var(--gradient-accent);
+            border-radius: 10px;
+        }
+
+        .publications-carousel-wrapper::-webkit-scrollbar-thumb:hover {
+            background: var(--color-accent-400);
+        }
+
+        .publications-carousel {
+            display: flex;
+            gap: 24px;
+            padding: 4px;
+            width: max-content;
+        }
+
+        .publication-card {
+            background-color: #fff;
+            border-radius: 16px;
+            box-shadow: var(--shadow-md);
+            overflow: hidden;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            cursor: pointer;
+            position: relative;
+            height: 430px;
+            width: 380px;
+            display: flex;
+            flex-direction: column;
+            flex-shrink: 0;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .publication-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-xl);
+        }
+
+        .publication-header {
+            background-color: var(--color-neutral-100);
+            padding: 12px 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            border-bottom: 1px solid var(--color-neutral-200);
+        }
+
+        .publication-site-icon {
+            width: 36px;
+            height: 36px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: 16px;
+            flex-shrink: 0;
+            overflow: hidden;
+        }
+
+        .publication-site-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Site-specific icon styles */
+        .forbes-icon {
+            background-color: #000;
+            color: white;
+            font-family: Georgia, serif;
+            font-size: 20px;
+        }
+
+        .vcru-icon {
+            background-color: #fff;
+            padding: 0;
+            border: 1px solid var(--color-neutral-300);
+        }
+
+        .cossa-icon {
+            background-color: #fff;
+            padding: 0;
+            border: 1px solid var(--color-neutral-300);
+        }
+
+        .rbc-icon {
+            background-color: white;
+            border: 2px solid #4db6ac;
+            color: #2e7d79;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+        }
+
+        .thegirl-icon {
+            background-color: #fff;
+            padding: 0;
+            border-radius: 50%;
+            border: 1px solid var(--color-neutral-300);
+        }
+
+        .rb-icon {
+            background-color: #fff;
+            padding: 0;
+            border: 1px solid var(--color-neutral-300);
+        }
+
+        .skillfactory-icon {
+            background-color: #fff;
+            padding: 0;
+            border: 1px solid var(--color-neutral-300);
+        }
+
+        .publication-site-info {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .publication-site-name {
+            font-size: 14px;
+            font-weight: 600;
+            color: var(--color-neutral-900);
+        }
+
+        .publication-site-url {
+            font-size: 12px;
+            color: var(--color-neutral-600);
+            margin-top: 2px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .publication-image {
+            width: 100%;
+            height: 200px;
+            background-color: var(--color-neutral-100);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .publication-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .publication-content {
+            padding: 16px 20px 20px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .publication-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--color-primary-800);
+            margin: 0 0 8px 0;
+            line-height: 1.4;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .publication-description {
+            font-size: 14px;
+            color: var(--color-neutral-600);
+            line-height: 1.5;
+            margin: 0 0 8px 0;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            flex: 1;
+            max-height: 63px;
+        }
+
+        .publication-meta {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-size: 12px;
+            color: var(--color-neutral-500);
+            margin-top: auto;
+        }
+
+        /* Navigation buttons for publications */
+        .publications-nav-button {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(255, 255, 255, 0.9);
+            border: none;
+            border-radius: 50%;
+            width: 48px;
+            height: 48px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: var(--shadow-lg);
+            transition: all 0.2s ease;
+            z-index: 10;
+        }
+
+        .publications-nav-button:hover {
+            background-color: white;
+            box-shadow: var(--shadow-xl);
+        }
+
+        .publications-nav-button-prev {
+            left: 10px;
+        }
+
+        .publications-nav-button-next {
+            right: 10px;
+        }
+
+        .publications-nav-button svg {
+            width: 24px;
+            height: 24px;
+            fill: var(--color-primary-800);
+        }
+
+        /* Footer */
+        .footer {
+            background: var(--color-primary-900);
+            padding: var(--space-6) 0 var(--space-4);
+        }
+
+        /* Tablet Responsive Design */
+        @media (max-width: 1024px) {
+            .services-grid {
+                flex-wrap: wrap;
+                overflow-x: visible;
+                overflow-y: visible;
+                justify-content: center;
+                padding: var(--space-4) var(--space-2);
+                gap: var(--space-3);
+            }
+
+            .services {
+                min-height: auto;
+            }
+        }
+
+        /* Mobile Responsive Design */
         @media (max-width: 768px) {
+            .cursor-dot, .cursor-ring {
+                display: none;
+            }
+
             .nav-menu {
                 display: none;
                 position: absolute;
@@ -819,8 +2120,8 @@
             }
 
             .hero {
-                padding: var(--space-16) 0;
-                min-height: auto;
+                padding: var(--space-16) 0 var(--space-8) 0;
+                min-height: 100vh;
             }
 
             .hero-content,
@@ -832,430 +2133,81 @@
 
             .hero-text h1 {
                 font-size: var(--font-size-3xl);
+                line-height: 1.2;
             }
 
             .services-grid {
-                gap: var(--space-3);
-                padding-left: var(--space-4);
-                padding-right: var(--space-4);
-            }
-
-            .service-card {
-                min-width: 250px;
-                max-width: 250px;
-                padding: var(--space-5);
-                min-height: 380px;
-            }
-
-            .media-grid {
-                gap: var(--space-3);
-                padding-left: var(--space-4);
-                padding-right: var(--space-4);
-            }
-
-            .media-item {
-                min-width: 250px;
-                max-width: 250px;
-                padding: var(--space-5);
-            }
-
-            .hero-buttons,
-            .about-buttons {
+                gap: var(--space-2);
+                padding-left: var(--space-2);
+                padding-right: var(--space-2);
+                flex-wrap: wrap;
                 justify-content: center;
             }
-        }
 
-        /* Enhanced Container Queries */
-        @container (max-width: 600px) {
             .service-card {
-                padding: var(--space-6);
+                min-width: 210px;
+                max-width: 210px;
+                padding: var(--space-3);
+                padding-top: var(--space-5);
+                padding-bottom: var(--space-3);
+                height: 390px;
             }
-        }
 
-        /* Enhanced Loading States */
-        .loading {
-            position: relative;
-            overflow: hidden;
-        }
-
-        .loading::after {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: -100%;
-            width: 100%;
-            height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
-            animation: loading-shimmer 1.5s infinite;
-        }
-
-        @keyframes loading-shimmer {
-            0% { left: -100%; }
-            100% { left: 100%; }
-        }
-
-        /* Enhanced Testimonials */
-        .testimonials {
-            background: var(--color-primary-800);
-            color: white;
-            padding: var(--space-24) 0;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .testimonials::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: radial-gradient(ellipse at center top, rgba(196, 243, 107, 0.1) 0%, transparent 50%);
-        }
-
-        .testimonials h2 {
-            text-align: center;
-            font-family: var(--font-family-display);
-            font-size: var(--font-size-3xl);
-            font-weight: 800;
-            margin-bottom: var(--space-4);
-            position: relative;
-            z-index: 2;
-        }
-
-        .testimonials-subtitle {
-            text-align: center;
-            margin-bottom: var(--space-16);
-            opacity: 0.9;
-            position: relative;
-            z-index: 2;
-        }
-
-        .testimonials-container {
-            max-width: 900px;
-            margin: 0 auto;
-            position: relative;
-            z-index: 2;
-        }
-
-        .testimonial-card {
-            background: white;
-            color: var(--color-neutral-900);
-            padding: var(--space-8);
-            border-radius: var(--radius-2xl);
-            box-shadow: var(--shadow-xl);
-            border: 1px solid var(--color-neutral-200);
-            margin-bottom: var(--space-8);
-            display: none;
-            transform: translateY(20px);
-            transition: all var(--transition-slow);
-        }
-
-        .testimonial-card.active {
-            display: block;
-            transform: translateY(0);
-            animation: testimonial-slide-in 0.6s ease-out;
-        }
-
-        @keyframes testimonial-slide-in {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
+            .service-card p {
+                min-height: auto;
             }
-            to {
-                opacity: 1;
-                transform: translateY(0);
+
+            .service-list {
+                margin-bottom: var(--space-2);
             }
-        }
 
-        .testimonial-header {
-            display: flex;
-            align-items: center;
-            margin-bottom: var(--space-6);
-        }
+            /* Adjust section heights for mobile */
+            .about,
+            .testimonials {
+                min-height: auto;
+                padding: var(--space-10) 0;
+            }
 
-        .testimonial-avatar {
-            width: 64px;
-            height: 64px;
-            border-radius: 50%;
-            margin-right: var(--space-4);
-            background: linear-gradient(135deg, var(--color-accent-500), var(--color-pink-500));
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: 800;
-            color: var(--color-primary-800);
-            font-size: var(--font-size-lg);
-            box-shadow: var(--shadow-md);
-        }
+            .contact {
+                min-height: 80vh;
+                padding: var(--space-12) 0 var(--space-8) 0;
+            }
 
-        .testimonial-info h4 {
-            font-weight: 700;
-            margin-bottom: var(--space-1);
-            color: var(--color-primary-800);
-        }
+            .services {
+                min-height: auto;
+                padding: var(--space-6) 0;
+            }
 
-        .testimonial-info .title {
-            color: var(--color-neutral-600);
-            font-size: var(--font-size-sm);
-        }
+            .floating-shape {
+                display: none;
+            }
 
-        .stars {
-            color: #ffd700;
-            margin-bottom: var(--space-4);
-            font-size: var(--font-size-lg);
-        }
+            .community-grid {
+                grid-template-columns: 1fr;
+                max-width: 280px;
+            }
 
-        .testimonial-text {
-            font-style: italic;
-            line-height: 1.7;
-            margin-bottom: var(--space-6);
-            font-size: var(--font-size-lg);
-        }
+            .publication-card {
+                width: 320px;
+                height: 410px;
+            }
 
-        .testimonial-result {
-            background: linear-gradient(135deg, var(--color-accent-500), var(--color-pink-500));
-            color: var(--color-primary-800);
-            padding: var(--space-3) var(--space-4);
-            border-radius: var(--radius-xl);
-            font-weight: 600;
-            font-size: var(--font-size-sm);
-            display: inline-block;
-        }
+            .publications-nav-button {
+                display: none;
+            }
 
-        /* Enhanced Carousel */
-        .carousel-dots {
-            display: flex;
-            justify-content: center;
-            gap: var(--space-3);
-            margin-bottom: var(--space-12);
-        }
+            .publications-header h2 {
+                font-size: var(--font-size-2xl);
+            }
 
-        .carousel-dot {
-            width: 14px;
-            height: 14px;
-            border-radius: 50%;
-            background: rgba(255,255,255,0.4);
-            cursor: pointer;
-            transition: all var(--transition-base);
-            border: 2px solid transparent;
-            position: relative;
-        }
+            .publications-header p {
+                font-size: var(--font-size-base);
+            }
 
-        .carousel-dot:hover {
-            background: rgba(255,255,255,0.7);
-            transform: scale(1.3);
-            border-color: var(--color-accent-500);
-        }
-
-        .carousel-dot.active {
-            background: var(--color-accent-500);
-            transform: scale(1.4);
-            border-color: white;
-            box-shadow: 0 0 10px rgba(196, 243, 107, 0.5);
-        }
-
-        .carousel-dot:focus {
-            outline: 2px solid var(--color-accent-500);
-            outline-offset: 3px;
-        }
-
-        /* Enhanced Publications Section */
-        .publications {
-            padding: var(--space-20) 0;
-            background: var(--color-neutral-50);
-        }
-
-        .publications h2 {
-            text-align: center;
-            font-family: var(--font-family-display);
-            font-size: var(--font-size-3xl);
-            font-weight: 800;
-            margin-bottom: var(--space-4);
-            color: var(--color-primary-800);
-        }
-
-        .publications-subtitle {
-            text-align: center;
-            color: var(--color-neutral-600);
-            margin-bottom: var(--space-16);
-        }
-
-        .media-grid {
-            display: flex;
-            gap: var(--space-4);
-            overflow-x: auto;
-            overflow-y: hidden;
-            scroll-behavior: smooth;
-            padding: var(--space-4) 0 var(--space-8) 0;
-            -webkit-overflow-scrolling: touch;
-            margin-bottom: var(--space-16);
-            align-items: stretch;
-        }
-
-        .media-grid::-webkit-scrollbar {
-            height: 8px;
-        }
-
-        .media-grid::-webkit-scrollbar-track {
-            background: var(--color-neutral-200);
-            border-radius: var(--radius-full);
-        }
-
-        .media-grid::-webkit-scrollbar-thumb {
-            background: var(--color-accent-500);
-            border-radius: var(--radius-full);
-        }
-
-        .media-grid::-webkit-scrollbar-thumb:hover {
-            background: var(--color-accent-400);
-        }
-
-        .media-item {
-            background: white;
-            padding: var(--space-5);
-            border-radius: var(--radius-xl);
-            box-shadow: var(--shadow-md);
-            transition: all var(--transition-base);
-            border: 1px solid var(--color-neutral-200);
-            text-decoration: none;
-            color: inherit;
-            display: block;
-            min-width: 280px;
-            max-width: 280px;
-            flex-shrink: 0;
-            text-align: center;
-        }
-
-        .media-item:hover {
-            transform: translateY(-5px);
-            box-shadow: var(--shadow-lg);
-            border-color: var(--color-accent-500);
-            text-decoration: none;
-            color: inherit;
-        }
-
-        .media-logo {
-            width: 64px;
-            height: 64px;
-            margin: 0 auto var(--space-3);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: var(--radius-lg);
-            box-shadow: var(--shadow-md);
-        }
-
-        .media-item h4 {
-            color: var(--color-primary-800);
-            font-size: var(--font-size-base);
-            font-weight: 700;
-            margin-bottom: var(--space-2);
-            text-align: center;
-        }
-
-        .media-item p {
-            color: var(--color-neutral-600);
-            font-style: italic;
-            line-height: 1.6;
-            text-align: center;
-            font-size: var(--font-size-sm);
-        }
-
-        /* Enhanced Contact Section */
-        .contact {
-            background: var(--color-primary-800);
-            color: white;
-            padding: var(--space-24) 0;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .contact::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: radial-gradient(ellipse at center bottom, rgba(196, 243, 107, 0.1) 0%, transparent 50%);
-        }
-
-        .contact-content {
-            max-width: 700px;
-            margin: 0 auto;
-            text-align: center;
-            position: relative;
-            z-index: 2;
-        }
-
-        .contact h2 {
-            font-family: var(--font-family-display);
-            font-size: var(--font-size-3xl);
-            font-weight: 800;
-            margin-bottom: var(--space-4);
-        }
-
-        .contact-subtitle {
-            margin-bottom: var(--space-12);
-            opacity: 0.9;
-            font-size: var(--font-size-lg);
-        }
-
-        .contact-form {
-            background: white;
-            padding: var(--space-8);
-            border-radius: var(--radius-2xl);
-            color: var(--color-neutral-900);
-            margin-bottom: var(--space-8);
-            box-shadow: var(--shadow-2xl);
-            border: 1px solid var(--color-neutral-200);
-        }
-
-        .form-group {
-            margin-bottom: var(--space-6);
-            text-align: left;
-        }
-
-        .form-row {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: var(--space-4);
-        }
-
-        .form-group label {
-            display: block;
-            margin-bottom: var(--space-2);
-            font-weight: 600;
-            color: var(--color-primary-800);
-            font-size: var(--font-size-sm);
-        }
-
-        .form-group input,
-        .form-group select,
-        .form-group textarea {
-            width: 100%;
-            padding: var(--space-4);
-            border: 2px solid var(--color-neutral-200);
-            border-radius: var(--radius-lg);
-            font-size: var(--font-size-base);
-            font-family: var(--font-family-body);
-            transition: all var(--transition-base);
-            background: white;
-        }
-
-        .form-group input:focus,
-        .form-group select:focus,
-        .form-group textarea:focus {
-            outline: none;
-            border-color: var(--color-accent-500);
-            box-shadow: 0 0 0 3px rgba(196, 243, 107, 0.1);
-            transform: translateY(-2px);
-        }
-
-        .form-group textarea {
-            min-height: 140px;
-            resize: vertical;
+            .testimonials-container {
+                max-width: 100%;
+                padding: 0 var(--space-4);
+            }
         }
 
         /* Performance optimizations */
@@ -1275,35 +2227,36 @@
                 scroll-behavior: auto !important;
             }
         }
-
-        /* High contrast mode support */
-        @media (prefers-contrast: high) {
-            .btn-primary {
-                border: 2px solid currentColor;
-            }
-
-            .service-card {
-                border: 2px solid var(--color-neutral-900);
-            }
-        }
     </style>
 </head>
 <body>
+<!-- Loading Screen -->
+<div class="loading-screen" id="loadingScreen">
+    <div class="loader">
+        <div class="loader-dot"></div>
+        <div class="loader-dot"></div>
+        <div class="loader-dot"></div>
+        <div class="loader-dot"></div>
+    </div>
+</div>
+
+<!-- Interactive Cursor -->
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
+
 <!-- Skip Link for Accessibility -->
 <a href="#main-content" class="skip-link">Skip to main content</a>
 
 <!-- Enhanced Header -->
-<header class="header" role="banner">
+<header class="header" role="banner" id="header">
     <nav class="nav container" role="navigation" aria-label="Main navigation">
         <a href="#home" class="logo" aria-label="Product Trends Homepage">Product Trends</a>
         <ul class="nav-menu" id="nav-menu">
             <li><a href="#about" aria-label="About section">About</a></li>
             <li><a href="#services" aria-label="Services section">Services</a></li>
             <li><a href="#testimonials" aria-label="Success stories section">Success Stories</a></li>
-            <li><a href="#publications" aria-label="Media and publications section">Media</a></li>
             <li><a href="#contact" aria-label="Contact section">Contact</a></li>
         </ul>
-        <a href="#contact" class="btn btn-primary" aria-label="Book a coaching session">Book a session</a>
         <button class="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
             <i class="fas fa-bars" aria-hidden="true"></i>
         </button>
@@ -1313,20 +2266,39 @@
 <!-- Enhanced Hero Section -->
 <main id="main-content">
     <section id="home" class="hero" role="banner">
+        <!-- Particle System -->
+        <div class="particles" id="particles"></div>
+
+        <!-- Floating Shapes -->
+        <div class="floating-shape"></div>
+        <div class="floating-shape"></div>
+        <div class="floating-shape"></div>
+
         <div class="container">
             <div class="hero-content">
                 <div class="hero-text">
-                    <h1>Product Coach Who Delivers Results</h1>
-                    <p class="hero-subtitle">I've helped 100+ product managers land offers at Yandex, VK, Visa and other top companies.</p>
-                    <div class="hero-buttons">
-                        <a href="#contact" class="btn btn-primary btn-large" aria-label="Book a coaching session">Book a session</a>
-                        <a href="#testimonials" class="btn btn-secondary" aria-label="View success stories">View Success Stories</a>
+                    <h1>Coaching PMs to Success.<br>Consulting Companies to Excellence.</h1>
+                    <p class="hero-subtitle">We transform product managers into industry leaders and help companies build exceptional product cultures. With proven frameworks and personalized coaching, we've helped 100+ PMs land roles at top tech companies.</p>
+                    <div class="hero-buttons" style="margin-top: var(--space-10); display: flex; gap: var(--space-4); align-items: center; justify-content: flex-start; flex-wrap: wrap;">
+                        <a href="https://calendly.com/producttrends-info/30min" class="btn btn-primary btn-large btn-magnetic" aria-label="Book a coaching session" target="_blank" rel="noopener noreferrer">
+                            <span class="btn-text">Book a session</span>
+                        </a>
+                        <a href="#services" class="btn btn-secondary btn-magnetic" aria-label="View our services">
+                            <span class="btn-text">View Services</span>
+                        </a>
+                        <a href="https://www.linkedin.com/company/producttrends" class="btn btn-secondary btn-magnetic" target="_blank" rel="noopener noreferrer" aria-label="Follow on LinkedIn (opens in new tab)">
+                            <i class="fab fa-linkedin"></i>
+                            <span class="btn-text">LinkedIn</span>
+                        </a>
                     </div>
                 </div>
                 <div class="hero-image">
-                    <img src="https://i.ibb.co/Q3B2kX0s/2025-05-26-19-44-47.png"
-                         alt="Anastasiia Moskovchenko - Product Management Coach"
-                         width="400" height="500">
+                    <div class="hero-image-wrapper" data-tilt>
+                        <img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&h=800&fit=crop"
+                             alt="Professional team meeting and product strategy discussion"
+                             width="400" height="500"
+                             style="object-fit: cover; object-position: center;">
+                    </div>
                 </div>
             </div>
         </div>
@@ -1335,21 +2307,27 @@
     <!-- Enhanced Trust Badges -->
     <section class="trust-badges" aria-label="Companies where clients have been placed">
         <div class="container">
-            <div class="trust-logos">
-                <div class="trust-logo" style="font-family: 'Arial', sans-serif; font-weight: 400; color: var(--color-primary-800); font-size: 2rem;">
-                    Yandex
+            <div class="trust-logos stagger-animation">
+                <div class="trust-logo" data-aos="zoom-in" style="font-family: 'Arial', sans-serif; font-weight: 700; font-size: 1.6rem;">
+                    Amazon
                 </div>
-                <div class="trust-logo" style="font-family: 'Helvetica', sans-serif; font-weight: 500; color: var(--color-primary-800); font-size: 2rem; letter-spacing: -1px;">
-                    VK
+                <div class="trust-logo" data-aos="zoom-in" data-aos-delay="100" style="font-family: 'Helvetica', sans-serif; font-weight: 700; font-size: 1.6rem;">
+                    Netflix
                 </div>
-                <div class="trust-logo" style="font-family: 'Helvetica', sans-serif; font-weight: 400; color: var(--color-primary-800); font-size: 1.3rem; letter-spacing: 2px;">
-                    PHILIPS
+                <div class="trust-logo" data-aos="zoom-in" data-aos-delay="200" style="font-family: 'Helvetica', sans-serif; font-weight: 700; font-size: 1.6rem;">
+                    Meta
                 </div>
-                <div class="trust-logo" style="font-family: 'Arial', sans-serif; font-weight: 600; color: var(--color-primary-800); font-size: 1.4rem;">
-                    Zen
+                <div class="trust-logo" data-aos="zoom-in" data-aos-delay="300" style="font-family: 'Arial', sans-serif; font-weight: 700; font-size: 1.6rem;">
+                    YouTube
                 </div>
-                <div class="trust-logo" style="font-family: 'Arial', sans-serif; font-weight: 600; color: var(--color-primary-800); font-size: 1.4rem;">
-                    Funcorp
+                <div class="trust-logo" data-aos="zoom-in" data-aos-delay="400" style="font-family: 'Arial', sans-serif; font-weight: 700; font-size: 1.5rem;">
+                    Duolingo
+                </div>
+                <div class="trust-logo" data-aos="zoom-in" data-aos-delay="500" style="font-family: 'Arial', sans-serif; font-weight: 700; font-size: 1.6rem;">
+                    LinkedIn
+                </div>
+                <div class="trust-logo" data-aos="zoom-in" data-aos-delay="600" style="font-family: 'Arial', sans-serif; font-weight: 700; font-size: 1.6rem;">
+                    TikTok
                 </div>
             </div>
         </div>
@@ -1359,97 +2337,23 @@
     <section id="about" class="about animate-on-scroll">
         <div class="container">
             <div class="about-content">
-                <div class="about-image">
-                    <img src="https://i.ibb.co/TMh1Sj3p/Ivp-UJ8-FWOoc.jpg"
-                         alt="Anastasiia Moskovchenko working in a professional environment"
-                         width="500" height="600">
+                <div class="about-image" data-aos="fade-right">
+                    <img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?w=800&h=600&fit=crop"
+                         alt="Product team collaboration and strategy session"
+                         width="500" height="600"
+                         style="object-fit: cover; object-position: center;">
                 </div>
-                <div class="about-text">
-                    <div class="badge">
-                        <i class="fas fa-user-tie" aria-hidden="true"></i>
-                        Meet a Product Coach
-                    </div>
-                    <h2>Moskovchenko Anastasiia</h2>
-                    <p>After bombing my first Yandex interview 8 years ago, I spent my career at Phillips, Zen, VK, Yandex, and Funcorp learning both sides of the hiring process—as a candidate and as a hiring manager screening 200+ applicants.</p>
-                    <p>I discovered that most PM interview failures aren't about skills, but about storytelling, frameworks, and confidence. That's why I started coaching, and now I've trained 100+ product managers who've landed roles at every major tech company.</p>
-                    <p>My unique perspective from both sides of the table gives candidates the insider edge they need to succeed.</p>
-                    <div class="about-buttons">
-                        <a href="https://www.linkedin.com/in/nmosk/" class="btn btn-primary" target="_blank" rel="noopener noreferrer" aria-label="Connect on LinkedIn (opens in new tab)">Connect on LinkedIn</a>
-                        <a href="#contact" class="btn btn-secondary" style="color: var(--color-primary-800); border-color: var(--color-primary-800);" aria-label="Let's discuss strategy">Let's Talk Strategy</a>
+                <div class="about-text" data-aos="fade-left">
+                    <h2>Product Trends Team</h2>
+                    <p><strong>100+ product managers trained.</strong> Every major tech company. We know exactly what hiring managers want because we've been there.</p>
+                    <p>Our team has sat on <strong>both sides of the table</strong>—as candidates at leading tech companies and <strong>hiring managers screening 200+ PM applicants</strong>. Those early failures became our greatest teachers.</p>
+                    <p>We recently interviewed at <strong>Amazon, Netflix, Meta, YouTube, Duolingo, LinkedIn, TikTok</strong>. In today's brutal market, this <strong>current insider knowledge</strong> is your competitive advantage.</p>
+                    <p>The truth? PM rejections aren't about skills—they're about <strong>storytelling, frameworks, and confidence</strong>. We fix exactly what's broken.</p>
+                    <div class="about-buttons" style="display: flex; gap: var(--space-4); flex-wrap: wrap; margin-top: var(--space-6); align-items: center;">
+                        <a href="https://www.linkedin.com/company/producttrends" class="btn btn-primary btn-magnetic" target="_blank" rel="noopener noreferrer" aria-label="Connect on LinkedIn (opens in new tab)">Connect on LinkedIn</a>
+                        <a href="#contact" class="btn btn-secondary btn-magnetic" style="color: var(--color-primary-800); border-color: var(--color-primary-800);" aria-label="Let's discuss strategy">Let's Talk Strategy</a>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Enhanced Services Section -->
-    <section id="services" class="services animate-on-scroll">
-        <div class="container">
-            <div class="badge">
-                <i class="fas fa-rocket" aria-hidden="true"></i>
-                Coaching Services
-            </div>
-            <h2>Exactly What You'll Get</h2>
-            <p class="services-subtitle">Detailed breakdown of each coaching package with specific deliverables and outcomes</p>
-
-            <div class="services-grid">
-                <article class="service-card">
-                    <div class="service-badge">Quick Start</div>
-                    <h3>Mock Interview Session</h3>
-                    <p>Perfect for testing your readiness with a realistic interview simulation</p>
-                    <ul class="service-features">
-                        <li>60-minute realistic interview simulation</li>
-                        <li>Detailed feedback report</li>
-                        <li>Improvement action plan</li>
-                    </ul>
-                    <a href="https://calendly.com/nmoskyr/30min" class="btn btn-primary" target="_blank" rel="noopener noreferrer" aria-label="Book Mock Interview (opens in new tab)">Book Mock Interview</a>
-                </article>
-
-                <article class="service-card popular">
-                    <div class="service-badge">Most Popular</div>
-                    <h3>Complete Preparation</h3>
-                    <p>Comprehensive preparation program for landing your dream PM role</p>
-                    <ul class="service-features">
-                        <li>3 progressive mock interviews (behavioral + case)</li>
-                        <li>Weekly check-ins</li>
-                        <li>Resume/LinkedIn optimization</li>
-                    </ul>
-                    <a href="#contact" class="btn btn-primary" aria-label="Start your journey">Start Your Journey</a>
-                    <div class="service-note">95% success rate with this package</div>
-                </article>
-
-                <article class="service-card">
-                    <div class="service-badge">Career Transformation</div>
-                    <h3>Senior PM Fast Track</h3>
-                    <p>Complete career transformation with end-to-end support</p>
-                    <ul class="service-features">
-                        <li>5 comprehensive 60-minute sessions</li>
-                        <li>Resume/LinkedIn optimization</li>
-                        <li>Career action plan</li>
-                        <li>Priority support</li>
-                    </ul>
-                    <a href="#contact" class="btn btn-primary" aria-label="Transform your career">Transform Your Career</a>
-                    <div class="service-note">Avg. 40% salary increase</div>
-                </article>
-
-                <article class="service-card">
-                    <div class="service-badge">Enterprise</div>
-                    <h3>Team Training</h3>
-                    <p>Scale your PM team's skills with comprehensive training programs</p>
-                    <ul class="service-features">
-                        <li>Team coaching & workshops</li>
-                        <li>Interview process optimization</li>
-                        <li>Recruitment process consulting</li>
-                        <li>Strategic consulting on product-market fit</li>
-                    </ul>
-                    <a href="#contact" class="btn btn-primary" aria-label="Discuss your team needs">Discuss Your Needs</a>
-                </article>
-            </div>
-
-            <div class="scroll-hint">
-                <i class="fas fa-arrow-left" aria-hidden="true"></i>
-                <span style="margin: 0 var(--space-2);">Scroll to see all packages</span>
-                <i class="fas fa-arrow-right" aria-hidden="true"></i>
             </div>
         </div>
     </section>
@@ -1457,56 +2361,74 @@
     <!-- Enhanced Testimonials Section -->
     <section id="testimonials" class="testimonials animate-on-scroll">
         <div class="container">
-            <div class="badge">
-                <i class="fas fa-star" aria-hidden="true"></i>
-                Success Stories
-            </div>
-            <h2>Real Results From Real People</h2>
-            <p class="testimonials-subtitle">Join 100+ product managers who transformed their careers</p>
+            <h2 data-aos="zoom-in">Real Results From Real People</h2>
+            <p class="testimonials-subtitle" data-aos="fade-up" data-aos-delay="200">Join 100+ product managers who transformed their careers</p>
 
             <div class="testimonials-container">
                 <div class="testimonial-card active">
                     <div class="testimonial-header">
-                        <div class="testimonial-avatar" aria-hidden="true">AS</div>
-                        <div class="testimonial-info">
-                            <h4>Artem S.</h4>
-                            <div class="title">Product Manager at Yandex Kinopoisk</div>
+                        <div class="testimonial-avatar">
+                            <img src="https://i.ibb.co/Q7XLc19B/2025-05-27-07-30-29.jpg" alt="Julia B." loading="lazy">
                         </div>
-                    </div>
-                    <div class="stars" aria-label="5 star rating">★★★★★</div>
-                    <blockquote class="testimonial-text">"Our mock interview definitely helped me. I felt <strong>more confident</strong> and understood how to <strong>better approach case solving</strong>. It helped me <strong>not only in interviews but also in product tests</strong> for media services."</blockquote>
-                    <div class="testimonial-result">Got offer at Yandex Kinopoisk</div>
-                </div>
-
-                <div class="testimonial-card">
-                    <div class="testimonial-header">
-                        <div class="testimonial-avatar" aria-hidden="true">MA</div>
-                        <div class="testimonial-info">
-                            <h4>Maria A.</h4>
-                            <div class="title">Product Manager at Yandex</div>
-                        </div>
-                    </div>
-                    <div class="stars" aria-label="5 star rating">★★★★★</div>
-                    <blockquote class="testimonial-text">"Thank you for such <strong>detailed feedback!</strong> This is <strong>extremely helpful</strong>. I haven't interviewed for 5 years, and this is a skill that needs practice. I recently had my first attempt at interviewing and <strong>received an offer as a product manager</strong>."</blockquote>
-                    <div class="testimonial-result">Got offer at Yandex</div>
-                </div>
-
-                <div class="testimonial-card">
-                    <div class="testimonial-header">
-                        <div class="testimonial-avatar" aria-hidden="true">JB</div>
                         <div class="testimonial-info">
                             <h4>Julia B.</h4>
                             <div class="title">Product Manager at Yandex Market</div>
                         </div>
                     </div>
                     <div class="stars" aria-label="5 star rating">★★★★★</div>
-                    <blockquote class="testimonial-text">"Thank you so much for your help, <strong>I'm starting at Yandex Market on January 14!</strong> Our <strong>consultations really helped</strong>: detailed analysis of growth areas, your experience from the <strong>hiring manager's perspective</strong>, and additional material recommendations 🔥"</blockquote>
-                    <div class="testimonial-result">Got offer after 3 sessions at Yandex Market</div>
+                    <blockquote class="testimonial-text">"I read the recommendations and watched your presentation and <strong>the puzzle came together in my head</strong>. Thanks for such a <strong>clear and clear structure with highlights and specific points to improve</strong> 👍 Thank you so much for your help, <strong>I'm already on January 14 in Yandex Market!</strong> Our consultations helped a lot: <strong>detailed analysis of growth areas</strong>, your insight from the <strong>hiring manager</strong> and recommendations for additional materials 🔥"</blockquote>
+                    <div class="testimonial-result">Got an offer at Yandex Market after 3 sessions!</div>
                 </div>
 
                 <div class="testimonial-card">
                     <div class="testimonial-header">
-                        <div class="testimonial-avatar" aria-hidden="true">ES</div>
+                        <div class="testimonial-avatar">
+                            <img src="https://i.ibb.co/gbVGpZSh/Artem.png" alt="Artem S." loading="lazy">
+                        </div>
+                        <div class="testimonial-info">
+                            <h4>Artem S.</h4>
+                            <div class="title">Product Manager at Yandex Kinopoisk</div>
+                        </div>
+                    </div>
+                    <div class="stars" aria-label="5 star rating">★★★★★</div>
+                    <blockquote class="testimonial-text">"Our mock interview definitely helped me, and the question is not even so much that I was ready for the questions, but <strong>more fundamental things</strong>: I simply felt <strong>more confident</strong>. I realized that I still know something and in general there's nothing to be afraid of. I understood how to <strong>better solve cases</strong>. This helped me not only during the interview at Yandex, but also during the test for media services. Because before that I simply <strong>missed some important things</strong> that were obvious to me, but I just didn't convey them to the recipient."</blockquote>
+                    <div class="testimonial-result">Got offer at Yandex Kinopoisk</div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <img src="https://i.ibb.co/rfqNjCjK/Maria.png" alt="Maria A." loading="lazy">
+                        </div>
+                        <div class="testimonial-info">
+                            <h4>Maria A.</h4>
+                            <div class="title">Product Manager</div>
+                        </div>
+                    </div>
+                    <div class="stars" aria-label="5 star rating">★★★★★</div>
+                    <blockquote class="testimonial-text">"Thank you for such <strong>detailed comments!</strong> It's very, very helpful for me. I haven't interviewed in 5 years with anyone, and that's a skill which is important to pump. I recently had my first attempt of interviews, and from it I got an offer as a salesperson for a payment processor. Now I also want to communicate with Yandex. I feel <strong>more confident after feedback</strong>."</blockquote>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <img src="https://i.ibb.co/FkNspsvp/2025-05-28-19-34-29.jpg" alt="Yulia Z." loading="lazy">
+                        </div>
+                        <div class="testimonial-info">
+                            <h4>Yulia Z.</h4>
+                            <div class="title">Product Manager at Yandex</div>
+                        </div>
+                    </div>
+                    <div class="stars" aria-label="5 star rating">★★★★★</div>
+                    <blockquote class="testimonial-text">"I noted 3 important points for myself as a result: I got an <strong>understanding of the structure</strong> - it was very clear that the answers should be structured, but it took me a long time to understand how. Now I've had a couple of interviews using the structure and it's been very comfortable for me and the hiring party, and they appreciated my empathy for their interests and <strong>clear communication</strong>. The anxiety about cases was greatly relieved - now I've created a <strong>handy checklist</strong> that I follow when solving a case. No 'white paper in my head' when I'm listening to the introductions - I immediately understand what to pay attention to and what additional questions to ask. In general, I feel more comfortable at interviews - I feel calmer and I can answer adequately without unnecessary worries. <strong>Today they sent an offer!!!</strong> 😀😀"</blockquote>
+                    <div class="testimonial-result">Got offer after 1 session at Yandex</div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <img src="https://i.ibb.co/YF51VwwR/Evgenia.png" alt="Evgeniya S." loading="lazy">
+                        </div>
                         <div class="testimonial-info">
                             <h4>Evgeniya S.</h4>
                             <div class="title">Senior Product Manager at VK</div>
@@ -1519,15 +2441,45 @@
 
                 <div class="testimonial-card">
                     <div class="testimonial-header">
-                        <div class="testimonial-avatar" aria-hidden="true">RI</div>
+                        <div class="testimonial-avatar">
+                            <img src="https://i.ibb.co/v543c6P/Kolya-smya.png" alt="Nickolay" loading="lazy">
+                        </div>
                         <div class="testimonial-info">
-                            <h4>Roman I.</h4>
+                            <h4>Nickolay</h4>
                             <div class="title">Product Manager</div>
                         </div>
                     </div>
                     <div class="stars" aria-label="5 star rating">★★★★★</div>
-                    <blockquote class="testimonial-text">"Nastya, I'm very grateful to you. I was impressed by how you <strong>immediately identified my problems</strong> and suggested ways to fix them. This was the <strong>most pleasant interview in my career!</strong>"</blockquote>
-                    <div class="testimonial-result">Successful interview transformation</div>
+                    <blockquote class="testimonial-text">"Thank you very much for such <strong>detailed feedback!</strong> About the fact that any metric can be corrupted - kind of obvious, but also not obvious))) and you don't think about it in the moment (<strong>useful insight</strong>, I'll keep it in mind for sure). About metrics in general I'll also take into account, now I'll go and read more about them for different products. Such an interview is a <strong>super interesting + useful experience</strong>: I understand myself where there are hiccups/inaccuracies and what to repeat, it's an opportunity to get <strong>feedback from an expert</strong> with a lot of experience. There will obviously be <strong>less excitement at the interview itself</strong>."</blockquote>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <img src="https://i.ibb.co/vCcCxVNk/2025-05-28-19-58-20.jpg" alt="Alexandra" loading="lazy">
+                        </div>
+                        <div class="testimonial-info">
+                            <h4>Alexandra</h4>
+                            <div class="title">Product Manager</div>
+                        </div>
+                    </div>
+                    <div class="stars" aria-label="5 star rating">★★★★★</div>
+                    <blockquote class="testimonial-text">"Thank you so much! Both for the interview and for such <strong>detailed feedback</strong>. It's very useful ❤️ I got <strong>2 offers out of 3 interviews</strong> at once. Although I haven't really applied anywhere. Now I've decided to be <strong>more selective about choosing a new place</strong>) and <strong>believe in myself more</strong>."</blockquote>
+                    <div class="testimonial-result">Got 2 offers out of 3 interviews!</div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-header">
+                        <div class="testimonial-avatar">
+                            <img src="https://i.ibb.co/9HbHNLVQ/Valera.png" alt="Valeriy Kh." loading="lazy">
+                        </div>
+                        <div class="testimonial-info">
+                            <h4>Valeriy Kh.</h4>
+                            <div class="title">Product Manager</div>
+                        </div>
+                    </div>
+                    <div class="stars" aria-label="5 star rating">★★★★★</div>
+                    <blockquote class="testimonial-text">"The format is great! I found it helpful <strong>not only the interview itself, but also the process of preparing</strong> for the interview. It's nice to notice and get feedback, that it manifests itself in <strong>much more confidence in the interview</strong> itself) I don't even have anything to add about the process itself."</blockquote>
                 </div>
             </div>
 
@@ -1537,303 +2489,796 @@
                 <button class="carousel-dot" data-slide="2" role="tab" aria-label="View testimonial 3" aria-selected="false"></button>
                 <button class="carousel-dot" data-slide="3" role="tab" aria-label="View testimonial 4" aria-selected="false"></button>
                 <button class="carousel-dot" data-slide="4" role="tab" aria-label="View testimonial 5" aria-selected="false"></button>
+                <button class="carousel-dot" data-slide="5" role="tab" aria-label="View testimonial 6" aria-selected="false"></button>
+                <button class="carousel-dot" data-slide="6" role="tab" aria-label="View testimonial 7" aria-selected="false"></button>
+                <button class="carousel-dot" data-slide="7" role="tab" aria-label="View testimonial 8" aria-selected="false"></button>
             </div>
 
-            <div style="text-align: center;">
-                <a href="#contact" class="btn btn-primary btn-large" aria-label="Get your success story">Get Your Success Story</a>
+
+        </div>
+    </section>
+
+    <!-- Enhanced Services Section -->
+    <section id="services" class="services animate-on-scroll">
+        <div class="container">
+            <h2>Our Services</h2>
+            <p class="services-subtitle">Comprehensive coaching packages and consulting solutions tailored to your needs</p>
+
+            <div class="services-grid">
+                <article class="service-card">
+                    <div class="service-badge">Quick Start</div>
+                    <div class="service-card-content">
+                        <div class="service-icon">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <h3>Career Coaching</h3>
+                        <p style="min-height: 70px;">Perfect for testing your readiness with a realistic interview simulation</p>
+                        <ul class="service-list">
+                            <li>• 1 call 60min</li>
+                            <li>• Unlimited Q&A via chat</li>
+                            <li>• Responses in 3-4 days</li>
+                            <li>• Hands-on support</li>
+                        </ul>
+                    </div>
+                    <a href="https://buy.stripe.com/bJecN5fFD64ndkQ7bIfQI00" class="btn btn-primary btn-magnetic" target="_blank" rel="noopener noreferrer" aria-label="Book Career Coaching for $149 (opens in new tab)">Book $149</a>
+                </article>
+
+                <article class="service-card popular highlighted">
+                    <div class="service-badge">Most Popular</div>
+                    <div class="service-card-content">
+                        <div class="service-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Interview Prep</h3>
+                        <p style="min-height: 70px;">Specializing in Mock Interviews, Presentation Prep, and building Product Thinking</p>
+                        <ul class="service-list">
+                            <li>• 3 calls/month (60 min)</li>
+                            <li>• Unlimited Q&A via chat</li>
+                            <li>• Responses in 24 hours</li>
+                            <li>• Hands-on support</li>
+                        </ul>
+                    </div>
+                    <a href="https://buy.stripe.com/9B68wPeBz3WfbcIanUfQI02" class="btn btn-primary btn-magnetic" target="_blank" rel="noopener noreferrer" aria-label="Book Interview Prep for $349 (opens in new tab)">Book $349</a>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-badge">Pro</div>
+                    <div class="service-card-content">
+                        <div class="service-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Senior PM Career</h3>
+                        <p style="min-height: 70px;">For those preparing for upcoming interviews: story crafting and product case interviews.</p>
+                        <ul class="service-list">
+                            <li>• 5 calls/month (60 min)</li>
+                            <li>• Unlimited Q&A via chat</li>
+                            <li>• Responses in 24 hours</li>
+                            <li>• Hands-on support</li>
+                        </ul>
+                    </div>
+                    <a href="https://buy.stripe.com/aFaeVd79764ncgMfIefQI03" class="btn btn-primary btn-magnetic" target="_blank" rel="noopener noreferrer" aria-label="Book Senior PM Career package for $549 (opens in new tab)">Book $549</a>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-badge">Enterprise</div>
+                    <div class="service-card-content">
+                        <div class="service-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <h3>Product Strategy</h3>
+                        <p style="min-height: 70px;">Help Companies Discover & Deliver Great Products. Faster.</p>
+                        <div style="flex-grow: 1;"></div>
+                    </div>
+                    <a href="https://calendly.com/producttrends-info/30min" class="btn btn-primary btn-magnetic" target="_blank" rel="noopener noreferrer" aria-label="Book Strategy Call (opens in new tab)">Book a Call</a>
+                </article>
             </div>
         </div>
     </section>
 
-    <!-- Enhanced Publications Section -->
-    <section id="publications" class="publications animate-on-scroll">
-        <div class="container">
-            <div class="badge">
-                <i class="fas fa-newspaper" aria-hidden="true"></i>
-                Featured In
-            </div>
-            <h2>Global Leader in Product Management</h2>
-            <p class="publications-subtitle">Sharing insights across leading platforms and conferences</p>
+    <!-- Enhanced Community Section -->
+    <section class="resources animate-on-scroll">
+        <!-- Wild Background Effects -->
+        <div style="position: absolute; top: -30%; right: -20%; width: 400px; height: 400px; background: radial-gradient(circle, rgba(196, 243, 107, 0.3) 0%, transparent 70%); border-radius: 50%; animation: float-random 8s ease-in-out infinite; filter: blur(40px);"></div>
+        <div style="position: absolute; bottom: -20%; left: -10%; width: 300px; height: 300px; background: radial-gradient(circle, rgba(228, 193, 197, 0.3) 0%, transparent 70%); border-radius: 50%; animation: float-random 6s ease-in-out infinite reverse; filter: blur(40px);"></div>
+        <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 600px; height: 600px; background: conic-gradient(from 180deg at 50% 50%, #c4f36b 0deg, #e4c1c5 120deg, #c4f36b 240deg, transparent 360deg); border-radius: 50%; animation: slow-rotate 20s linear infinite; opacity: 0.1; filter: blur(60px);"></div>
 
-            <div class="media-grid">
-                <a href="https://www.forbes.ru/svoi-biznes/507872-kak-eks-prodakt-menedzer-andeksa-ustroilas-v-aukcionnyj-dom-phillips-za-rubezom"
-                   class="media-item" target="_blank" rel="noopener noreferrer"
-                   aria-label="Read Forbes article (opens in new tab)">
-                    <div class="media-logo" style="background: #000;">
-                        <span style="font-family: 'Times New Roman', serif; font-size: 1.1rem; font-weight: 400; color: white; letter-spacing: 1px;">Forbes</span>
-                    </div>
-                    <h4>Forbes</h4>
-                    <p>"Career transition insights from a product leader who scaled international teams"</p>
-                </a>
+        <div class="container" style="position: relative; z-index: 2;">
+            <h2 style="text-align: center; font-family: var(--font-family-display); font-size: var(--font-size-3xl); font-weight: 900; margin-bottom: var(--space-4); color: white; line-height: 1.1; text-shadow: 0 0 30px rgba(196, 243, 107, 0.5);">Join <span style="background: linear-gradient(45deg, #c4f36b, #e4c1c5, #c4f36b); background-size: 200% 200%; animation: gradient-shift 3s ease infinite; -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; filter: drop-shadow(0 0 20px rgba(196, 243, 107, 0.5));">5,700+</span> Product Managers</h2>
+            <p style="text-align: center; color: rgba(255,255,255,0.9); margin-bottom: var(--space-10); font-size: var(--font-size-lg); max-width: 600px; margin-left: auto; margin-right: auto; text-shadow: 0 2px 10px rgba(0,0,0,0.5);">Level up your PM career with exclusive resources and community</p>
 
-                <a href="https://hackernoon.com/ive-always-been-the-only-female-in-the-team-an-interview-with-anastasiia-moskovchenko"
-                   class="media-item" target="_blank" rel="noopener noreferrer"
-                   aria-label="Read HackerNoon article (opens in new tab)">
-                    <div class="media-logo" style="background: #00ff88;">
-                        <span style="font-family: 'Arial Black', Arial, sans-serif; font-size: 1rem; font-weight: 900; color: #000;">HN</span>
-                    </div>
-                    <h4>HackerNoon</h4>
-                    <p>"Breaking barriers as the only female in tech teams across major companies"</p>
-                </a>
+            <style>
+                @keyframes gradient-shift {
+                    0% { background-position: 0% 50%; }
+                    50% { background-position: 100% 50%; }
+                    100% { background-position: 0% 50%; }
+                }
+            </style>
 
-                <a href="https://vc.ru/hr/655608-testovye-zadaniya-na-product-manager-kotorye-prinesli-offery-v-yandeks-vk-i-v-drugie-it-kompanii"
-                   class="media-item" target="_blank" rel="noopener noreferrer"
-                   aria-label="Read VC.ru article (opens in new tab)">
-                    <div class="media-logo" style="background: #f4c2c2;">
-                        <span style="font-family: 'Arial', sans-serif; font-weight: 700; color: white; font-size: 1rem;">vc.ru</span>
-                    </div>
-                    <h4>VC.ru</h4>
-                    <p>"PM interview strategies that brought offers from Yandex, VK and other IT giants"</p>
-                </a>
+            <div class="community-grid">
+                <!-- Telegram Card -->
+                <div class="community-card-interactive" data-aos="zoom-in" data-aos-delay="100">
+                    <!-- Wild gradient border -->
+                    <div style="position: absolute; inset: -2px; background: linear-gradient(45deg, #c4f36b, #1a4b3a, #c4f36b, #1a4b3a); background-size: 300% 300%; border-radius: var(--radius-xl); z-index: -1; animation: gradient-shift 3s ease infinite;"></div>
 
-                <a href="https://www.cossa.ru/trends/329662/"
-                   class="media-item" target="_blank" rel="noopener noreferrer"
-                   aria-label="Read Cossa article (opens in new tab)">
-                    <div class="media-logo" style="background: #4285f4;">
-                        <span style="font-family: 'Arial', sans-serif; font-weight: 700; color: white; font-size: 1rem; letter-spacing: 1px;">COSSA</span>
-                    </div>
-                    <h4>Cossa</h4>
-                    <p>"How to increase key product metrics by 4x in just 3 months"</p>
-                </a>
-
-                <a href="https://pro.rbc.ru/demo/65c1f96a9a79473f40c049be"
-                   class="media-item" target="_blank" rel="noopener noreferrer"
-                   aria-label="Read RBC article (opens in new tab)">
-                    <div class="media-logo" style="background: white; border: 2px solid #4db6ac; display: flex; align-items: center; justify-content: center; gap: 4px;">
-                        <div style="width: 20px; height: 20px; background: linear-gradient(135deg, #4db6ac 50%, #2e7d79 50%); position: relative;">
-                            <div style="position: absolute; top: 2px; left: 2px; width: 16px; height: 16px; background: linear-gradient(135deg, transparent 48%, white 48%, white 52%, transparent 52%);"></div>
+                    <div style="position: relative; z-index: 2;">
+                        <div style="width: 40px; height: 40px; margin: 0 auto var(--space-3); position: relative;">
+                            <div style="position: absolute; inset: -4px; background: linear-gradient(135deg, var(--color-accent-500), var(--color-primary-600)); border-radius: 30%; animation: slow-rotate 3s linear infinite; opacity: 0.5;"></div>
+                            <div style="position: relative; width: 100%; height: 100%; background: white; border-radius: 25%; display: flex; align-items: center; justify-content: center; box-shadow: 0 5px 15px rgba(0,0,0,0.3);">
+                                <img src="https://cdn.pixabay.com/photo/2021/12/27/10/50/telegram-6896827_1280.png" alt="Telegram Logo" style="width: 70%; height: 70%; object-fit: contain;" loading="lazy">
+                            </div>
                         </div>
-                        <span style="font-family: 'Arial', sans-serif; font-weight: 700; color: #2e7d79; font-size: 1rem; letter-spacing: 1px;">РБК</span>
-                    </div>
-                    <h4>RBC</h4>
-                    <p>"User preference optimization strategies for global product teams"</p>
-                </a>
 
-                <a href="https://theblueprint.ru/culture/trends/kak-a-stala"
-                   class="media-item" target="_blank" rel="noopener noreferrer"
-                   aria-label="Read TheBlueprint article (opens in new tab)">
-                    <div class="media-logo" style="background: #4a5fe7;">
-                        <span style="font-family: 'Arial Black', Arial, sans-serif; font-weight: 900; color: white; font-size: 1rem;">BP</span>
-                    </div>
-                    <h4>TheBlueprint</h4>
-                    <p>"A product manager is the most ardent fan and constant consumer of his product"</p>
-                </a>
+                        <div style="font-size: 1.8rem; font-weight: 900; line-height: 1; margin-bottom: var(--space-2); background: linear-gradient(45deg, #1a4b3a, #c4f36b); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">5.7k+</div>
+                        <h3 style="font-size: var(--font-size-sm); font-weight: 800; margin-bottom: var(--space-2); color: var(--color-primary-800);">Product Trends</h3>
+                        <p style="color: var(--color-neutral-600); margin-bottom: var(--space-3); line-height: 1.4; font-size: var(--font-size-xs);">Weekly PM insights</p>
 
-                <a href="https://srsly.ru/article/show/34485/"
-                   class="media-item" target="_blank" rel="noopener noreferrer"
-                   aria-label="Read Srsly.ru article (opens in new tab)">
-                    <div class="media-logo" style="background: #2d3748;">
-                        <span style="font-family: 'Arial Black', Arial, sans-serif; font-weight: 900; color: #a8ff35; font-size: 1rem;">S*</span>
+                        <a href="https://t.me/producttrends" class="btn btn-magnetic" target="_blank" rel="noopener noreferrer" style="background: linear-gradient(135deg, #c4f36b, #b8e55f); color: var(--color-primary-800); padding: var(--space-2) var(--space-3); font-size: var(--font-size-xs); font-weight: 700; width: 100%; justify-content: center; border: none; box-shadow: 0 5px 15px rgba(196, 243, 107, 0.5); position: relative; overflow: hidden;" aria-label="Join Telegram channel (opens in new tab)">
+                                <span style="position: relative; z-index: 2; display: flex; align-items: center; gap: var(--space-1);">
+                                    <i class="fab fa-telegram" aria-hidden="true" style="font-size: 0.8rem;"></i>
+                                    Join
+                                </span>
+                        </a>
                     </div>
-                    <h4>Srsly.ru</h4>
-                    <p>"How I become: Career transformation insights from a senior product leader"</p>
-                </a>
+                </div>
 
-                <a href="https://thegirl.ru/articles/karera-za-rubezhom-kak-naiti-rabotu-v-drugoi-strane-i-s-chego-nachat-poisk-vakansii/"
-                   class="media-item" target="_blank" rel="noopener noreferrer"
-                   aria-label="Read TheGirl.ru article (opens in new tab)">
-                    <div class="media-logo" style="background: #ff69b4; border-radius: 50%;">
-                        <span style="font-family: 'Georgia', serif; font-weight: bold; color: white; font-size: 2rem;">g</span>
+                <!-- Community Card -->
+                <div class="community-card-interactive" data-aos="zoom-in" data-aos-delay="200">
+                    <!-- Wild gradient border -->
+                    <div style="position: absolute; inset: -2px; background: linear-gradient(45deg, #e4c1c5, #1a4b3a, #e4c1c5, #1a4b3a); background-size: 300% 300%; border-radius: var(--radius-xl); z-index: -1; animation: gradient-shift 3s ease infinite 1s;"></div>
+
+                    <div style="position: relative; z-index: 2;">
+                        <div style="width: 40px; height: 40px; margin: 0 auto var(--space-3); position: relative;">
+                            <div style="position: absolute; inset: -4px; background: linear-gradient(135deg, var(--color-pink-500), var(--color-primary-600)); border-radius: 50%; animation: slow-rotate 3s linear infinite reverse; opacity: 0.5;"></div>
+                            <div style="position: relative; width: 100%; height: 100%; border-radius: 50%; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.3);">
+                                <img src="https://i.ibb.co/93ZRBSWh/2025-05-29-18-13-29.jpg" alt="ProductOffer Logo" style="width: 100%; height: 100%; object-fit: cover;" loading="lazy">
+                            </div>
+                        </div>
+
+                        <div style="font-size: 1.8rem; font-weight: 900; line-height: 1; margin-bottom: var(--space-2); background: linear-gradient(45deg, #1a4b3a, #e4c1c5); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">500+</div>
+                        <h3 style="font-size: var(--font-size-sm); font-weight: 800; margin-bottom: var(--space-2); color: var(--color-primary-800);">Job Network</h3>
+                        <p style="color: var(--color-neutral-600); margin-bottom: var(--space-3); line-height: 1.4; font-size: var(--font-size-xs);">Market insights and support</p>
+
+                        <a href="https://t.me/+8vLZN1gqaV83ZDgy" class="btn btn-magnetic" target="_blank" rel="noopener noreferrer" style="background: linear-gradient(135deg, #e4c1c5, #d4a6ab); color: white; padding: var(--space-2) var(--space-3); font-size: var(--font-size-xs); font-weight: 700; width: 100%; justify-content: center; border: none; box-shadow: 0 5px 15px rgba(228, 193, 197, 0.5); position: relative; overflow: hidden;" aria-label="Join community (opens in new tab)">
+                                <span style="position: relative; z-index: 2; display: flex; align-items: center; gap: var(--space-1);">
+                                    <i class="fas fa-users" aria-hidden="true" style="font-size: 0.8rem;"></i>
+                                    Join
+                                </span>
+                        </a>
                     </div>
-                    <h4>TheGirl.ru</h4>
-                    <p>"Complete guide to building an international career in product management"</p>
-                </a>
+                </div>
+
+                <!-- Framework Card -->
+                <div class="community-card-interactive" data-aos="zoom-in" data-aos-delay="300">
+                    <!-- FREE Badge -->
+                    <div style="position: absolute; top: -10px; right: -10px; background: linear-gradient(45deg, #FFD700, #FFA500, #FFD700); background-size: 200% 200%; animation: gradient-shift 2s ease infinite; color: black; padding: var(--space-1) var(--space-2); border-radius: var(--radius-full); font-size: 0.6rem; font-weight: 900; transform: rotate(15deg); z-index: 10; box-shadow: 0 5px 15px rgba(255, 215, 0, 0.6); letter-spacing: 0.5px;">FREE</div>
+
+                    <!-- Wild gradient border -->
+                    <div style="position: absolute; inset: -2px; background: linear-gradient(45deg, #FFD700, #c4f36b, #e4c1c5, #FFD700); background-size: 300% 300%; border-radius: var(--radius-xl); z-index: -1; animation: gradient-shift 3s ease infinite 2s;"></div>
+
+                    <div style="position: relative; z-index: 2;">
+                        <div style="width: 40px; height: 40px; margin: 0 auto var(--space-3); position: relative;">
+                            <div style="position: absolute; inset: -4px; background: linear-gradient(135deg, #FFD700, #c4f36b, #e4c1c5); border-radius: var(--radius-lg); animation: slow-rotate 3s linear infinite; opacity: 0.6;"></div>
+                            <div style="position: relative; width: 100%; height: 100%; background: linear-gradient(135deg, #FFD700, #FFA500); border-radius: var(--radius-lg); display: flex; align-items: center; justify-content: center; box-shadow: 0 5px 15px rgba(255, 215, 0, 0.4);">
+                                <i class="fas fa-rocket" style="font-size: 1.2rem; color: black; animation: bounce 2s ease-in-out infinite;"></i>
+                            </div>
+                        </div>
+
+                        <style>
+                            @keyframes bounce {
+                                0%, 100% { transform: translateY(0); }
+                                50% { transform: translateY(-3px); }
+                            }
+                        </style>
+
+                        <div style="font-size: 1.8rem; font-weight: 900; line-height: 1; margin-bottom: var(--space-2); background: linear-gradient(45deg, #FFD700, #1a4b3a); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">#1</div>
+                        <h3 style="font-size: var(--font-size-sm); font-weight: 800; margin-bottom: var(--space-2); color: var(--color-primary-800);">Product Sense</h3>
+                        <p style="color: var(--color-neutral-600); margin-bottom: var(--space-3); line-height: 1.4; font-size: var(--font-size-xs);">Interview guide</p>
+
+                        <a href="https://docs.google.com/document/d/1zFwDuUjzzuFDUIOF02CDFYalKEnF9nhS8CFg3IaQN7s/edit?usp=sharing" class="btn btn-magnetic" target="_blank" rel="noopener noreferrer" style="background: linear-gradient(135deg, #FFD700, #FFA500); color: black; padding: var(--space-2) var(--space-3); font-size: var(--font-size-xs); font-weight: 700; width: 100%; justify-content: center; border: none; box-shadow: 0 5px 15px rgba(255, 215, 0, 0.5); position: relative; overflow: hidden;" aria-label="Download framework (opens in new tab)">
+                                <span style="position: relative; z-index: 2; display: flex; align-items: center; gap: var(--space-1);">
+                                    <i class="fas fa-download" aria-hidden="true" style="font-size: 0.8rem;"></i>
+                                    Download
+                                </span>
+                        </a>
+                    </div>
+                </div>
             </div>
+        </div>
+    </section>
 
-            <div style="text-align: center;">
-                <a href="https://www.linkedin.com/in/nmosk/" class="btn btn-primary" target="_blank" rel="noopener noreferrer" aria-label="View all publications on LinkedIn (opens in new tab)">View All Publications</a>
-                <a href="#contact" class="btn btn-secondary" style="color: var(--color-primary-800); border-color: var(--color-primary-800); margin-left: var(--space-4);" aria-label="Invite me to speak">Invite Me to Speak</a>
+    <!-- Publications Section -->
+    <section class="publications animate-on-scroll">
+        <div class="container">
+            <div class="publications-carousel-container">
+                <div class="publications-header">
+                    <h2>Featured Publications & Media</h2>
+                    <p>Our publications featuring product management insights, career strategies, and technical expertise</p>
+                </div>
+
+                <button class="publications-nav-button publications-nav-button-prev" onclick="scrollPublicationsCarousel(-1)">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/>
+                    </svg>
+                </button>
+
+                <button class="publications-nav-button publications-nav-button-next" onclick="scrollPublicationsCarousel(1)">
+                    <svg viewBox="0 0 24 24">
+                        <path d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z"/>
+                    </svg>
+                </button>
+
+                <div class="publications-carousel-wrapper" id="publicationsCarouselWrapper">
+                    <div class="publications-carousel">
+                        <!-- Forbes Article -->
+                        <a href="https://www.forbes.ru/svoi-biznes/507872-kak-eks-prodakt-menedzer-andeksa-ustroilas-v-aukcionnyj-dom-phillips-za-rubezom" class="publication-card" target="_blank" rel="noopener noreferrer">
+                            <div class="publication-header">
+                                <div class="publication-site-icon forbes-icon">F</div>
+                                <div class="publication-site-info">
+                                    <div class="publication-site-name">Forbes</div>
+                                    <div class="publication-site-url">forbes</div>
+                                </div>
+                            </div>
+                            <div class="publication-image">
+                                <img src="https://cdn.forbes.ru/forbes-static/c/608x342/new/2024/03/GettyImages-1373309407-copy-65ef19bfadf28.jpg" alt="Forbes article" loading="lazy">
+                            </div>
+                            <div class="publication-content">
+                                <h3 class="publication-title">How an Ex-Yandex Product Manager Got a Job at Phillips Auction House Abroad</h3>
+                                <p class="publication-description">Career transition insights from a product leader who scaled teams at Yandex, VK, and landed a role at international auction house Phillips, sharing AI-powered job search strategies.</p>
+                                <div class="publication-meta">
+                                    <span>Business</span>
+                                    <span>•</span>
+                                    <span>forbes</span>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- VC.ru Interview Article -->
+                        <a href="https://vc.ru/hr/656631-razbor-samogo-zadavaemoego-voprosa-na-prodakta-v-krupnyh-it-kompanii" class="publication-card" target="_blank" rel="noopener noreferrer">
+                            <div class="publication-header">
+                                <div class="publication-site-icon vcru-icon">
+                                    <img src="https://files.raycast.com/8f2ocbpoh1n6bopdmtjnolglev77" alt="VC.ru" loading="lazy">
+                                </div>
+                                <div class="publication-site-info">
+                                    <div class="publication-site-name">VC.ru</div>
+                                    <div class="publication-site-url">vc.ru</div>
+                                </div>
+                            </div>
+                            <div class="publication-image">
+                                <img src="https://leonardo.osnova.io/004ca92c-8928-539d-8100-1e9214a56816/-/scale_crop/1184x/-/format/webp/" alt="VC.ru article" loading="lazy">
+                            </div>
+                            <div class="publication-content">
+                                <h3 class="publication-title">Most Common Product Manager Interview Question in Big IT Companies Explained</h3>
+                                <p class="publication-description">"How does the Internet work?" - Complete guide to answering this technical question with confidence in PM interviews.</p>
+                                <div class="publication-meta">
+                                    <span>Interview Prep</span>
+                                    <span>•</span>
+                                    <span>vc.ru</span>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- VC.ru Test Assignments Article -->
+                        <a href="https://vc.ru/hr/655608-testovye-zadaniya-na-product-manager-kotorye-prinesli-offery-v-yandeks-vk-i-v-drugie-it-kompanii" class="publication-card" target="_blank" rel="noopener noreferrer">
+                            <div class="publication-header">
+                                <div class="publication-site-icon vcru-icon">
+                                    <img src="https://files.raycast.com/8f2ocbpoh1n6bopdmtjnolglev77" alt="VC.ru" loading="lazy">
+                                </div>
+                                <div class="publication-site-info">
+                                    <div class="publication-site-name">VC.ru</div>
+                                    <div class="publication-site-url">vc.ru</div>
+                                </div>
+                            </div>
+                            <div class="publication-image">
+                                <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 20px; display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; perspective: 1000px;">
+                                    <!-- 3D Cards Stack -->
+                                    <div style="position: relative; transform-style: preserve-3d;">
+                                        <!-- Back cards -->
+                                        <div style="position: absolute; width: 120px; height: 80px; background: rgba(255,255,255,0.1); border-radius: 12px; border: 2px solid rgba(255,255,255,0.3); transform: translateZ(-20px) translateY(-10px) rotateY(-15deg); backdrop-filter: blur(5px);"></div>
+                                        <div style="position: absolute; width: 120px; height: 80px; background: rgba(255,255,255,0.15); border-radius: 12px; border: 2px solid rgba(255,255,255,0.4); transform: translateZ(-10px) translateY(-5px) rotateY(-7deg); backdrop-filter: blur(5px);"></div>
+
+                                        <!-- Front card -->
+                                        <div style="width: 120px; height: 80px; background: rgba(255,255,255,0.95); border-radius: 12px; border: 2px solid rgba(255,255,255,0.8); display: flex; flex-direction: column; justify-content: center; align-items: center; transform: translateZ(0px); backdrop-filter: blur(10px); box-shadow: 0 10px 25px rgba(0,0,0,0.3); animation: cardFloat 3s ease-in-out infinite;">
+                                            <div style="color: #667eea; font-size: 24px; margin-bottom: 4px;">🎯</div>
+                                            <div style="color: #333; font-size: 11px; font-weight: 700; text-align: center; line-height: 1.2;">PM Test<br/>Assignment</div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Success badges floating -->
+                                    <div style="position: absolute; top: 15px; right: 15px; background: rgba(46, 204, 113, 0.9); color: white; padding: 4px 8px; border-radius: 20px; font-size: 10px; font-weight: 700; animation: pulse 2s ease-in-out infinite;">
+                                        ✓ Yandex
+                                    </div>
+                                    <div style="position: absolute; bottom: 15px; left: 15px; background: rgba(52, 152, 219, 0.9); color: white; padding: 4px 8px; border-radius: 20px; font-size: 10px; font-weight: 700; animation: pulse 2s ease-in-out infinite 0.5s;">
+                                        ✓ VK
+                                    </div>
+                                    <div style="position: absolute; top: 50px; left: 20px; background: rgba(155, 89, 182, 0.9); color: white; padding: 4px 8px; border-radius: 20px; font-size: 10px; font-weight: 700; animation: pulse 2s ease-in-out infinite 1s;">
+                                        ✓ Offers
+                                    </div>
+
+                                    <style>
+                                        @keyframes cardFloat {
+                                            0%, 100% { transform: translateZ(0px) rotateX(0deg) rotateY(0deg); }
+                                            50% { transform: translateZ(10px) rotateX(-5deg) rotateY(5deg); }
+                                        }
+                                        @keyframes pulse {
+                                            0%, 100% { transform: scale(1); opacity: 1; }
+                                            50% { transform: scale(1.1); opacity: 0.8; }
+                                        }
+                                    </style>
+                                </div>
+                            </div>
+                            <div class="publication-content">
+                                <h3 class="publication-title">PM Test Assignments That Brought Offers from Yandex, VK and Other IT Giants</h3>
+                                <p class="publication-description">Real test assignment solutions and interview strategies that led to successful offers from top Russian tech companies. Practical tips for aspiring product managers.</p>
+                                <div class="publication-meta">
+                                    <span>Career</span>
+                                    <span>•</span>
+                                    <span>vc.ru</span>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- Cossa Article -->
+                        <a href="https://www.cossa.ru/trends/329662/" class="publication-card" target="_blank" rel="noopener noreferrer">
+                            <div class="publication-header">
+                                <div class="publication-site-icon cossa-icon">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMwiuvE0hVtx2ugFEl1uZgV3tT0tZi3aVfsQ&s" alt="Cossa" loading="lazy">
+                                </div>
+                                <div class="publication-site-info">
+                                    <div class="publication-site-name">Cossa</div>
+                                    <div class="publication-site-url">cossa</div>
+                                </div>
+                            </div>
+                            <div class="publication-image">
+                                <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%); padding: 20px; display: flex; flex-direction: column; justify-content: center; position: relative; overflow: hidden;">
+                                    <!-- Floating icons background -->
+                                    <div style="position: absolute; top: 10px; left: 10px; width: 30px; height: 30px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; animation: float 3s ease-in-out infinite;">
+                                        <span style="color: white; font-size: 16px;">📊</span>
+                                    </div>
+                                    <div style="position: absolute; top: 30px; right: 20px; width: 25px; height: 25px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; animation: float 3s ease-in-out infinite 1s;">
+                                        <span style="color: white; font-size: 14px;">📈</span>
+                                    </div>
+                                    <div style="position: absolute; bottom: 20px; left: 30px; width: 35px; height: 35px; background: rgba(255,255,255,0.1); border-radius: 50%; display: flex; align-items: center; justify-content: center; animation: float 3s ease-in-out infinite 2s;">
+                                        <span style="color: white; font-size: 18px;">🎯</span>
+                                    </div>
+
+                                    <!-- Main content -->
+                                    <div style="background: rgba(255,255,255,0.15); backdrop-filter: blur(10px); border-radius: 16px; padding: 20px; border: 1px solid rgba(255,255,255,0.2); text-align: center; position: relative; z-index: 2;">
+                                        <div style="color: #f39c12; font-size: 32px; margin-bottom: 12px; font-weight: 800;">4x</div>
+                                        <div style="color: white; font-size: 16px; font-weight: 600; margin-bottom: 8px;">Key Metrics Growth</div>
+                                        <div style="color: rgba(255,255,255,0.8); font-size: 12px;">3 months • 150 experiments</div>
+                                    </div>
+
+                                    <style>
+                                        @keyframes float {
+                                            0%, 100% { transform: translateY(0px); }
+                                            50% { transform: translateY(-10px); }
+                                        }
+                                    </style>
+                                </div>
+                            </div>
+                            <div class="publication-content">
+                                <h3 class="publication-title">Short Videos in Dzen: Increased Key Metrics by 4x in 3 Months</h3>
+                                <p class="publication-description">Case study on transforming user engagement without ads. How strategic UI changes and 150 experiments led to quadrupling DAU and time spent in just three months.</p>
+                                <div class="publication-meta">
+                                    <span>Product Management</span>
+                                    <span>•</span>
+                                    <span>cossa</span>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- RBC Article -->
+                        <a href="https://pro.rbc.ru/demo/65c1f96a9a79473f40c049be" class="publication-card" target="_blank" rel="noopener noreferrer">
+                            <div class="publication-header">
+                                <div class="publication-site-icon rbc-icon">РБК</div>
+                                <div class="publication-site-info">
+                                    <div class="publication-site-name">RBC Pro</div>
+                                    <div class="publication-site-url">pro.rbc</div>
+                                </div>
+                            </div>
+                            <div class="publication-image">
+                                <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #1a237e 0%, #3f51b5 100%); padding: 24px; display: flex; align-items: center; justify-content: center;">
+                                    <div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); border-radius: 16px; padding: 24px; border: 1px solid rgba(255,255,255,0.2); text-align: center;">
+                                        <div style="display: flex; justify-content: center; gap: 8px; margin-bottom: 16px;">
+                                            <div style="width: 50px; height: 50px; background: rgba(255,255,255,0.2); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 24px;">👤</div>
+                                            <div style="width: 50px; height: 50px; background: rgba(255,255,255,0.2); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 24px;">🔍</div>
+                                            <div style="width: 50px; height: 50px; background: rgba(255,255,255,0.2); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 24px;">🎯</div>
+                                        </div>
+                                        <div style="color: white; font-size: 20px; font-weight: 600; margin-bottom: 8px;">Avoiding Filter Bubbles</div>
+                                        <div style="color: rgba(255,255,255,0.9); font-size: 14px;">Personalization vs. Content Diversity</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="publication-content">
+                                <h3 class="publication-title">How to Account for User Preferences and Avoid the "Filter Bubble"</h3>
+                                <p class="publication-description">Insights from Phillips' Senior Product Manager on building recommendation systems that balance personalization with content diversity.</p>
+                                <div class="publication-meta">
+                                    <span>Technology</span>
+                                    <span>•</span>
+                                    <span>pro.rbc</span>
+                                </div>
+                            </div>
+                        </a>
+
+                        <!-- TheGirl Article -->
+                        <a href="https://thegirl.ru/articles/karera-za-rubezhom-kak-naiti-rabotu-v-drugoi-strane-i-s-chego-nachat-poisk-vakansii/" class="publication-card" target="_blank" rel="noopener noreferrer">
+                            <div class="publication-header">
+                                <div class="publication-site-icon thegirl-icon">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9ZXMmRfL9kb4s0iCCuh2UkvOdMuSzvZ5lcg&s" alt="TheGirl" loading="lazy">
+                                </div>
+                                <div class="publication-site-info">
+                                    <div class="publication-site-name">TheGirl</div>
+                                    <div class="publication-site-url">thegirl</div>
+                                </div>
+                            </div>
+                            <div class="publication-image">
+                                <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #ff6b6b 0%, #ffa726 100%); padding: 20px; display: flex; flex-direction: column; justify-content: center; position: relative; overflow: hidden;">
+                                    <!-- World map pattern -->
+                                    <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0.1; background-image: url('data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><circle cx=\"20\" cy=\"30\" r=\"2\" fill=\"white\"/><circle cx=\"40\" cy=\"20\" r=\"2\" fill=\"white\"/><circle cx=\"60\" cy=\"40\" r=\"2\" fill=\"white\"/><circle cx=\"80\" cy=\"25\" r=\"2\" fill=\"white\"/><circle cx=\"30\" cy=\"60\" r=\"2\" fill=\"white\"/><circle cx=\"70\" cy=\"70\" r=\"2\" fill=\"white\"/></svg>'); background-size: 50px 50px;"></div>
+
+                                <!-- Airplane path -->
+                                <div style="position: absolute; top: 20px; left: 10px; width: 80%; height: 2px; background: rgba(255,255,255,0.4); border-radius: 2px;">
+                                    <div style="position: absolute; top: -8px; right: 0; width: 20px; height: 20px; background: rgba(255,255,255,0.9); border-radius: 50%; display: flex; align-items: center; justify-content: center; animation: fly 3s ease-in-out infinite;">
+                                        <span style="font-size: 12px;">✈️</span>
+                                    </div>
+                                </div>
+
+                                <!-- Main content -->
+                                <div style="background: rgba(255,255,255,0.15); backdrop-filter: blur(10px); border-radius: 20px; padding: 20px; border: 2px solid rgba(255,255,255,0.3); text-align: center; position: relative; z-index: 2;">
+                                    <div style="display: flex; justify-content: center; gap: 8px; margin-bottom: 12px;">
+                                        <div style="width: 35px; height: 35px; background: rgba(255,255,255,0.2); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                                            <span style="font-size: 18px;">🌍</span>
+                                        </div>
+                                        <div style="width: 35px; height: 35px; background: rgba(255,255,255,0.2); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                                            <span style="font-size: 18px;">💼</span>
+                                        </div>
+                                        <div style="width: 35px; height: 35px; background: rgba(255,255,255,0.2); border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                                            <span style="font-size: 18px;">🚀</span>
+                                        </div>
+                                    </div>
+                                    <div style="color: white; font-size: 16px; font-weight: 700; margin-bottom: 6px;">Career Abroad</div>
+                                    <div style="color: rgba(255,255,255,0.9); font-size: 12px;">Complete International Guide</div>
+                                </div>
+
+                                <style>
+                                    @keyframes fly {
+                                        0% { right: 100%; }
+                                        100% { right: 0%; }
+                                    }
+                                </style>
+                            </div>
+                    </div>
+                    <div class="publication-content">
+                        <h3 class="publication-title">Career Abroad: Complete Guide to Finding Work in Another Country</h3>
+                        <p class="publication-description">Step-by-step guide to building an international career in product management. From resume optimization to visa strategies and cultural adaptation tips.</p>
+                        <div class="publication-meta">
+                            <span>Career Guide</span>
+                            <span>•</span>
+                            <span>thegirl</span>
+                        </div>
+                    </div>
+                    </a>
+
+                    <!-- RB.ru Article -->
+                    <a href="https://rb.ru/opinion/proverte-svoi-pushi/" class="publication-card" target="_blank" rel="noopener noreferrer">
+                        <div class="publication-header">
+                            <div class="publication-site-icon rb-icon">
+                                <img src="https://media.licdn.com/dms/image/v2/C4E0BAQF22ghN6iWiZw/company-logo_200_200/company-logo_200_200/0/1669831588768/rbru_logo?e=2147483647&v=beta&t=MzUtdguVpPys8q7GUjKt4fDrndfnqyI0aZpWv8a4hP0" alt="RB.ru" loading="lazy">
+                            </div>
+                            <div class="publication-site-info">
+                                <div class="publication-site-name">RB.ru</div>
+                                <div class="publication-site-url">rb.ru</div>
+                            </div>
+                        </div>
+                        <div class="publication-image">
+                            <div style="width: 100%; height: 100%; background: linear-gradient(135deg, #e74c3c 0%, #c0392b 100%); padding: 20px; display: flex; flex-direction: column; justify-content: center; position: relative; overflow: hidden;">
+                                <!-- Animated notification mockup -->
+                                <div style="background: #fff; border-radius: 12px; padding: 16px; box-shadow: 0 8px 25px rgba(0,0,0,0.3); margin-bottom: 12px; position: relative; animation: slideInUp 2s ease-out infinite;">
+                                    <div style="display: flex; align-items: center; gap: 12px; margin-bottom: 10px;">
+                                        <div style="width: 35px; height: 35px; background: #e74c3c; border-radius: 8px; display: flex; align-items: center; justify-content: center;">
+                                            <span style="color: white; font-size: 18px;">🔔</span>
+                                        </div>
+                                        <div style="flex: 1;">
+                                            <div style="font-size: 13px; font-weight: 700; color: #333;">RB.ru Push</div>
+                                            <div style="font-size: 11px; color: #666;">now</div>
+                                        </div>
+                                    </div>
+                                    <div style="font-size: 14px; color: #1a1a1a; margin-bottom: 6px; font-weight: 600;">📈 CTR increased 200%!</div>
+                                    <div style="font-size: 12px; color: #666;">42 experiments revealed the secret</div>
+                                </div>
+
+                                <!-- Performance metrics -->
+                                <div style="display: flex; justify-content: space-between; align-items: center;">
+                                    <div style="text-align: center; color: white;">
+                                        <div style="font-size: 20px; font-weight: 800;">200%</div>
+                                        <div style="font-size: 10px; opacity: 0.9;">CTR Growth</div>
+                                    </div>
+                                    <div style="text-align: center; color: white;">
+                                        <div style="font-size: 20px; font-weight: 800;">42</div>
+                                        <div style="font-size: 10px; opacity: 0.9;">Experiments</div>
+                                    </div>
+                                    <div style="text-align: center; color: white;">
+                                        <div style="font-size: 20px; font-weight: 800;">20%</div>
+                                        <div style="font-size: 10px; opacity: 0.9;">Activation</div>
+                                    </div>
+                                </div>
+
+                                <style>
+                                    @keyframes slideInUp {
+                                        0%, 100% { transform: translateY(0px); opacity: 1; }
+                                        50% { transform: translateY(-5px); opacity: 0.9; }
+                                    }
+                                </style>
+                            </div>
+                        </div>
+                        <div class="publication-content">
+                            <h3 class="publication-title">Check Your Push Notifications: If Metrics Are Below These, Time to Change</h3>
+                            <p class="publication-description">Ex-Senior Product Manager shares push notification strategies that doubled CTR and increased user activation by 20% through 42 experiments.</p>
+                            <div class="publication-meta">
+                                <span>Product Strategy</span>
+                                <span>•</span>
+                                <span>rb.ru</span>
+                            </div>
+                        </div>
+                    </a>
+
+                    <!-- Skillfactory Article -->
+                    <a href="https://blog.skillfactory.ru/kak-vyvesti-it-produkt-na-rynok/" class="publication-card" target="_blank" rel="noopener noreferrer">
+                        <div class="publication-header">
+                            <div class="publication-site-icon skillfactory-icon">
+                                <img src="https://pbs.twimg.com/profile_images/1640583266540441601/JERC2UBx_400x400.jpg" alt="SkillFactory" loading="lazy">
+                            </div>
+                            <div class="publication-site-info">
+                                <div class="publication-site-name">Skillfactory Blog</div>
+                                <div class="publication-site-url">blog.skillfactory</div>
+                            </div>
+                        </div>
+                        <div class="publication-image">
+                            <img src="https://blog.skillfactory.ru/wp-content/uploads/2024/12/customer-journey-map-7-1.jpg" alt="Skillfactory article" loading="lazy">
+                        </div>
+                        <div class="publication-content">
+                            <h3 class="publication-title">How to Launch an IT Product to Market: Stages, Research, and Release</h3>
+                            <p class="publication-description">Complete guide from discovery to delivery phases, featuring expert insights on market analysis, UX research, and sprint methodology.</p>
+                            <div class="publication-meta">
+                                <span>Product Launch</span>
+                                <span>•</span>
+                                <span>blog.skillfactory</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
             </div>
+        </div>
         </div>
     </section>
 
     <!-- Enhanced Contact Section -->
     <section id="contact" class="contact animate-on-scroll">
         <div class="container">
-            <div class="contact-content">
-                <div class="badge">
-                    <i class="fas fa-calendar-check" aria-hidden="true"></i>
-                    Ready To Start?
-                </div>
-                <h2>Book Your FREE Strategy Call</h2>
-                <p class="contact-subtitle">15 minutes to discuss your goals and create a personalized roadmap</p>
+            <div class="contact-content" style="max-width: 800px; margin: 0 auto; text-align: center; position: relative; z-index: 2;">
+                <h2 style="font-family: var(--font-family-display); font-size: var(--font-size-4xl); font-weight: 900; margin-bottom: var(--space-6); background: linear-gradient(135deg, white 0%, var(--color-accent-500) 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; text-shadow: 0 0 40px rgba(196, 243, 107, 0.3);">Ready to Transform Your PM Career?</h2>
+                <p style="margin-bottom: var(--space-16); opacity: 0.9; font-size: var(--font-size-xl); color: rgba(255,255,255,0.8);">15 minutes to discuss your goals and create a personalized roadmap</p>
 
-                <form class="contact-form" aria-label="Contact form">
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="firstName">Your first name</label>
-                            <input type="text" id="firstName" name="firstName" required aria-required="true">
-                        </div>
-                        <div class="form-group">
-                            <label for="lastName">Your last name</label>
-                            <input type="text" id="lastName" name="lastName" required aria-required="true">
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="email">your@email.com</label>
-                        <input type="email" id="email" name="email" required aria-required="true">
-                    </div>
-                    <div class="form-group">
-                        <label for="interest">What are you most interested in?</label>
-                        <select id="interest" name="interest" required aria-required="true">
-                            <option value="">Choose an option</option>
-                            <option value="mock">Single Mock Interview</option>
-                            <option value="complete">3-Session Package - Most Popular</option>
-                            <option value="career">Career Package - 5 Sessions</option>
-                            <option value="enterprise">Enterprise</option>
-                            <option value="chat">Just want to chat first</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <label for="situation">Tell me about your current situation and interview goals...</label>
-                        <textarea id="situation" name="situation" placeholder="Share your current role, target companies, timeline, and specific challenges you're facing..." aria-describedby="situation-help"></textarea>
-                        <small id="situation-help" style="color: var(--color-neutral-600); font-size: var(--font-size-sm);">This helps me prepare for our call</small>
-                    </div>
-                    <a href="https://calendly.com/nmoskyr/30min"
-                       class="btn btn-primary btn-large"
+                <div style="position: relative;">
+                    <a href="https://calendly.com/producttrends-info/30min"
+                       class="btn btn-magnetic"
                        target="_blank"
                        rel="noopener noreferrer"
                        aria-label="Book FREE Call on Calendly (opens in new tab)"
-                       style="width: 100%; margin-top: var(--space-6);">
-                        <i class="fas fa-calendar-plus" aria-hidden="true"></i>
-                        Book FREE Call
+                       style="background: linear-gradient(135deg, var(--color-accent-500) 0%, var(--color-accent-400) 100%); color: var(--color-primary-800); padding: var(--space-6) var(--space-12); font-size: var(--font-size-xl); font-weight: 800; width: auto; justify-content: center; border: none; box-shadow: 0 10px 30px rgba(196, 243, 107, 0.4), 0 0 60px rgba(196, 243, 107, 0.2); position: relative; overflow: hidden; text-transform: uppercase; letter-spacing: 1px; display: inline-flex;">
+                            <span style="position: relative; z-index: 2; display: flex; align-items: center; gap: var(--space-3);">
+                                <i class="fas fa-calendar-check" aria-hidden="true" style="font-size: 1.5rem;"></i>
+                                Book FREE Strategy Call Now
+                                <i class="fas fa-arrow-right" aria-hidden="true" style="font-size: 1.2rem;"></i>
+                            </span>
                     </a>
-                </form>
+                </div>
+
+                <div style="margin-top: var(--space-16); padding-top: var(--space-10); border-top: 1px solid rgba(255,255,255,0.2);">
+                    <h3 style="font-size: var(--font-size-2xl); margin-bottom: var(--space-6); color: rgba(255,255,255,0.9);">Connect With Us</h3>
+                    <div style="display: flex; gap: var(--space-4); justify-content: center; flex-wrap: wrap;">
+                        <a href="https://www.linkedin.com/company/producttrends"
+                           class="btn btn-magnetic"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           aria-label="Follow on LinkedIn (opens in new tab)"
+                           style="background: rgba(255,255,255,0.1); color: white; border: 2px solid rgba(255,255,255,0.3); padding: var(--space-3) var(--space-6); font-size: var(--font-size-base); font-weight: 600; backdrop-filter: blur(10px); display: inline-flex; align-items: center; gap: var(--space-2);">
+                            <i class="fab fa-linkedin" style="font-size: 1.2rem;"></i>
+                            Follow on LinkedIn
+                        </a>
+                        <a href="mailto:info@producttrends.io"
+                           class="btn btn-magnetic"
+                           aria-label="Send email"
+                           style="background: rgba(255,255,255,0.1); color: white; border: 2px solid rgba(255,255,255,0.3); padding: var(--space-3) var(--space-6); font-size: var(--font-size-base); font-weight: 600; backdrop-filter: blur(10px); display: inline-flex; align-items: center; gap: var(--space-2);">
+                            <i class="fas fa-envelope" style="font-size: 1.2rem;"></i>
+                            Email Us
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 </main>
 
 <!-- Enhanced Footer -->
-<footer class="footer" style="background: var(--color-primary-900); padding: var(--space-16) 0 var(--space-4);">
+<footer class="footer" style="background: var(--color-primary-900); padding: var(--space-8) 0 var(--space-4);">
     <div class="container">
         <div style="text-align: center; color: rgba(255,255,255,0.7); font-size: var(--font-size-sm);">
-            <p>&copy; 2025 Product Trends LLC. All rights reserved. |
+            <p>&copy; 2025 Product Trends. All rights reserved. |
                 <a href="https://docs.google.com/document/d/1wtUhvatzx4tDTolnH-gitjIZsETI82qD27Z0iF_80pc/edit?usp=sharing"
                    target="_blank" rel="noopener noreferrer"
                    style="color: var(--color-accent-500); text-decoration: none;"
                    aria-label="Privacy Policy (opens in new tab)">Privacy Policy</a>
-            </p>
-            <p style="margin-top: var(--space-4);">
-                Connect:
-                <a href="mailto:info@producttrends.io"
-                   style="color: var(--color-accent-500); text-decoration: none; margin-left: var(--space-2);"
-                   aria-label="Send email to info@producttrends.io">
-                    <i class="fas fa-envelope" aria-hidden="true"></i> info@producttrends.io
-                </a>
-                <a href="https://www.linkedin.com/in/nmosk/" target="_blank" rel="noopener noreferrer"
-                   style="color: var(--color-accent-500); text-decoration: none; margin-left: var(--space-4);"
-                   aria-label="LinkedIn profile (opens in new tab)">
-                    <i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn
-                </a>
-                <a href="https://t.me/producttrends" target="_blank" rel="noopener noreferrer"
-                   style="color: var(--color-accent-500); text-decoration: none; margin-left: var(--space-4);"
-                   aria-label="Telegram channel (opens in new tab)">
-                    <i class="fab fa-telegram" aria-hidden="true"></i> Telegram
-                </a>
             </p>
         </div>
     </div>
 </footer>
 
 <script>
-    // Enhanced Mobile Menu with proper ARIA
+    // Loading Screen
+    window.addEventListener('load', function() {
+        setTimeout(() => {
+            document.getElementById('loadingScreen').classList.add('loaded');
+        }, 1000);
+    });
+
+    // Interactive Cursor with reduced motion check
+    const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const cursorDot = document.getElementById('cursorDot');
+    const cursorRing = document.getElementById('cursorRing');
+
+    if (prefersReducedMotion || window.innerWidth < 768) {
+        // Hide custom cursor for reduced motion or mobile
+        if (cursorDot) cursorDot.style.display = 'none';
+        if (cursorRing) cursorRing.style.display = 'none';
+    } else {
+        let mouseX = 0, mouseY = 0;
+        let dotX = 0, dotY = 0;
+        let ringX = 0, ringY = 0;
+
+        document.addEventListener('mousemove', (e) => {
+            mouseX = e.clientX;
+            mouseY = e.clientY;
+        });
+
+        function animateCursor() {
+            // Smooth cursor animation
+            dotX += (mouseX - dotX) * 0.2;
+            dotY += (mouseY - dotY) * 0.2;
+            ringX += (mouseX - ringX) * 0.1;
+            ringY += (mouseY - ringY) * 0.1;
+
+            cursorDot.style.left = dotX + 'px';
+            cursorDot.style.top = dotY + 'px';
+            cursorRing.style.left = ringX + 'px';
+            cursorRing.style.top = ringY + 'px';
+
+            requestAnimationFrame(animateCursor);
+        }
+
+        animateCursor();
+
+        // Add hover effects to interactive elements
+        const hoverElements = document.querySelectorAll('a, button, .btn, .service-card, .testimonial-card, .community-card-interactive');
+
+        hoverElements.forEach(element => {
+            element.addEventListener('mouseenter', () => {
+                cursorRing.classList.add('hover');
+                cursorDot.style.transform = 'translate(-50%, -50%) scale(1.5)';
+            });
+
+            element.addEventListener('mouseleave', () => {
+                cursorRing.classList.remove('hover');
+                cursorDot.style.transform = 'translate(-50%, -50%) scale(1)';
+            });
+        });
+    }
+
+    // Particle System with performance optimization
+    const maxParticles = 30; // Limit maximum particles
+    let particleInterval;
+
+    function createParticle() {
+        const particlesContainer = document.getElementById('particles');
+        if (!particlesContainer) return;
+
+        // Clean up old particles
+        const existingParticles = particlesContainer.querySelectorAll('.particle');
+        if (existingParticles.length >= maxParticles) {
+            existingParticles[0].remove();
+        }
+
+        const particle = document.createElement('div');
+        particle.className = 'particle';
+        particle.style.left = Math.random() * window.innerWidth + 'px';
+        particle.style.animationDuration = (Math.random() * 10 + 5) + 's';
+        particle.style.animationDelay = Math.random() * 5 + 's';
+        particlesContainer.appendChild(particle);
+
+        setTimeout(() => {
+            particle.remove();
+        }, 15000);
+    }
+
+    // Create particles periodically only if reduced motion is not preferred
+    if (!prefersReducedMotion) {
+        particleInterval = setInterval(createParticle, 500);
+    }
+
+    // Cleanup on page unload
+    window.addEventListener('beforeunload', () => {
+        if (particleInterval) {
+            clearInterval(particleInterval);
+        }
+    });
+
+    // Header Scroll Effect
+    const header = document.getElementById('header');
+    let lastScroll = 0;
+
+    window.addEventListener('scroll', () => {
+        const currentScroll = window.pageYOffset;
+
+        if (currentScroll > 50) {
+            header.classList.add('scrolled');
+        } else {
+            header.classList.remove('scrolled');
+        }
+
+        lastScroll = currentScroll;
+    });
+
+    // Mobile Menu Toggle
     const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
     const navMenu = document.querySelector('.nav-menu');
 
-    mobileMenuBtn.addEventListener('click', function() {
-        const isOpen = navMenu.classList.contains('active');
-        navMenu.classList.toggle('active');
+    if (mobileMenuBtn && navMenu) {
+        mobileMenuBtn.addEventListener('click', function() {
+            const isOpen = navMenu.classList.contains('active');
+            navMenu.classList.toggle('active');
 
-        // Update ARIA attributes
-        this.setAttribute('aria-expanded', !isOpen);
-        navMenu.setAttribute('aria-hidden', isOpen);
+            // Update ARIA attributes
+            this.setAttribute('aria-expanded', !isOpen);
+            navMenu.setAttribute('aria-hidden', isOpen);
 
-        // Update icon
-        const icon = this.querySelector('i');
-        icon.className = isOpen ? 'fas fa-bars' : 'fas fa-times';
-    });
+            // Update icon
+            const icon = this.querySelector('i');
+            if (icon) {
+                icon.className = isOpen ? 'fas fa-bars' : 'fas fa-times';
+            }
+        });
+    }
 
-    // Enhanced Smooth Scrolling with offset for fixed header
+    // Smooth Scrolling
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
             const target = document.querySelector(this.getAttribute('href'));
             if (target) {
-                const headerHeight = document.querySelector('.header').offsetHeight;
+                const headerHeight = header.offsetHeight;
                 const targetPosition = target.offsetTop - headerHeight - 20;
 
                 window.scrollTo({
                     top: targetPosition,
                     behavior: 'smooth'
                 });
+
+                // Close mobile menu if open
+                if (navMenu && navMenu.classList.contains('active')) {
+                    navMenu.classList.remove('active');
+                    if (mobileMenuBtn) {
+                        mobileMenuBtn.setAttribute('aria-expanded', 'false');
+                        const icon = mobileMenuBtn.querySelector('i');
+                        if (icon) {
+                            icon.className = 'fas fa-bars';
+                        }
+                    }
+                }
             }
         });
     });
 
-    // Enhanced Testimonials Carousel with Accessibility
-    let currentSlide = 0;
-    const testimonialCards = document.querySelectorAll('.testimonial-card');
-    const carouselDots = document.querySelectorAll('.carousel-dot');
-
-    function showSlide(index) {
-        // Hide all cards
-        testimonialCards.forEach(card => {
-            card.classList.remove('active');
-            card.setAttribute('aria-hidden', 'true');
-        });
-
-        carouselDots.forEach(dot => {
-            dot.classList.remove('active');
-            dot.setAttribute('aria-selected', 'false');
-        });
-
-        // Show current card
-        testimonialCards[index].classList.add('active');
-        testimonialCards[index].setAttribute('aria-hidden', 'false');
-        carouselDots[index].classList.add('active');
-        carouselDots[index].setAttribute('aria-selected', 'true');
-
-        currentSlide = index;
-    }
-
-    // Dot navigation with keyboard support
-    carouselDots.forEach((dot, index) => {
-        dot.addEventListener('click', () => showSlide(index));
-        dot.addEventListener('keydown', (e) => {
-            if (e.key === 'Enter' || e.key === ' ') {
-                e.preventDefault();
-                showSlide(index);
-            }
-        });
-    });
-
-    // Auto-advance carousel with pause on hover/focus
-    let carouselInterval = setInterval(() => {
-        currentSlide = (currentSlide + 1) % testimonialCards.length;
-        showSlide(currentSlide);
-    }, 6000);
-
-    // Pause on hover or focus
-    const testimonialSection = document.querySelector('.testimonials');
-    testimonialSection.addEventListener('mouseenter', () => clearInterval(carouselInterval));
-    testimonialSection.addEventListener('focusin', () => clearInterval(carouselInterval));
-
-    testimonialSection.addEventListener('mouseleave', () => {
-        carouselInterval = setInterval(() => {
-            currentSlide = (currentSlide + 1) % testimonialCards.length;
-            showSlide(currentSlide);
-        }, 6000);
-    });
-
-    testimonialSection.addEventListener('focusout', () => {
-        carouselInterval = setInterval(() => {
-            currentSlide = (currentSlide + 1) % testimonialCards.length;
-            showSlide(currentSlide);
-        }, 6000);
-    });
-
-    // Enhanced Intersection Observer for Animations
+    // Intersection Observer for Animations
     const observerOptions = {
         threshold: 0.1,
         rootMargin: '0px 0px -50px 0px'
@@ -1847,93 +3292,63 @@
         });
     }, observerOptions);
 
-    // Observe all sections with animation
+    // Observe all animated elements
     document.querySelectorAll('.animate-on-scroll').forEach(section => {
         observer.observe(section);
     });
 
-    // Enhanced Form Validation
-    const contactForm = document.querySelector('.contact-form');
-    const formInputs = contactForm.querySelectorAll('input, select, textarea');
+    // Magnetic Button Effect
+    document.querySelectorAll('.btn-magnetic').forEach(button => {
+        button.addEventListener('mousemove', function(e) {
+            const rect = this.getBoundingClientRect();
+            const x = e.clientX - rect.left - rect.width / 2;
+            const y = e.clientY - rect.top - rect.height / 2;
 
-    formInputs.forEach(input => {
-        input.addEventListener('blur', validateField);
-        input.addEventListener('input', clearErrors);
+            this.style.transform = `translate(${x * 0.3}px, ${y * 0.3}px)`;
+        });
+
+        button.addEventListener('mouseleave', function() {
+            this.style.transform = '';
+        });
     });
 
-    function validateField(e) {
-        const field = e.target;
-        const value = field.value.trim();
+    // Parallax Effect
+    window.addEventListener('scroll', () => {
+        const scrolled = window.pageYOffset;
+        const parallaxElements = document.querySelectorAll('.floating-shape');
 
-        // Remove existing error styling
-        field.style.borderColor = '';
-
-        if (field.hasAttribute('required') && !value) {
-            showFieldError(field, 'This field is required');
-            return false;
-        }
-
-        if (field.type === 'email' && value && !isValidEmail(value)) {
-            showFieldError(field, 'Please enter a valid email address');
-            return false;
-        }
-
-        return true;
-    }
-
-    function showFieldError(field, message) {
-        field.style.borderColor = '#ef4444';
-
-        // Remove existing error message
-        const existingError = field.parentNode.querySelector('.error-message');
-        if (existingError) {
-            existingError.remove();
-        }
-
-        // Add new error message
-        const errorDiv = document.createElement('div');
-        errorDiv.className = 'error-message';
-        errorDiv.style.color = '#ef4444';
-        errorDiv.style.fontSize = 'var(--font-size-sm)';
-        errorDiv.style.marginTop = 'var(--space-1)';
-        errorDiv.textContent = message;
-        errorDiv.setAttribute('role', 'alert');
-
-        field.parentNode.appendChild(errorDiv);
-    }
-
-    function clearErrors(e) {
-        const field = e.target;
-        field.style.borderColor = '';
-
-        const errorMessage = field.parentNode.querySelector('.error-message');
-        if (errorMessage) {
-            errorMessage.remove();
-        }
-    }
-
-    function isValidEmail(email) {
-        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-        return emailRegex.test(email);
-    }
-
-    // Enhanced CTA Button Interactions
-    document.querySelector('.btn-large').addEventListener('click', function(e) {
-        const button = this;
-        const originalText = button.innerHTML;
-
-        // Add loading state
-        button.innerHTML = '<i class="fas fa-spinner fa-spin" aria-hidden="true"></i> Opening Calendly...';
-        button.style.background = 'linear-gradient(135deg, var(--color-accent-500), var(--color-pink-500))';
-        button.style.pointerEvents = 'none';
-
-        // Reset after delay
-        setTimeout(() => {
-            button.innerHTML = originalText;
-            button.style.background = '';
-            button.style.pointerEvents = '';
-        }, 2000);
+        parallaxElements.forEach((element, index) => {
+            const speed = (index + 1) * 0.5;
+            element.style.transform = `translateY(${scrolled * speed * 0.1}px)`;
+        });
     });
+
+    // 3D Tilt Effect
+    function handle3DTilt(element) {
+        element.addEventListener('mousemove', function(e) {
+            const rect = this.getBoundingClientRect();
+            const x = e.clientX - rect.left;
+            const y = e.clientY - rect.top;
+
+            const centerX = rect.width / 2;
+            const centerY = rect.height / 2;
+
+            const rotateX = (y - centerY) / 10;
+            const rotateY = (centerX - x) / 10;
+
+            this.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+        });
+
+        element.addEventListener('mouseleave', function() {
+            this.style.transform = '';
+        });
+    }
+
+    // Apply 3D tilt to hero image
+    const heroImageWrapper = document.querySelector('.hero-image-wrapper');
+    if (heroImageWrapper) {
+        handle3DTilt(heroImageWrapper);
+    }
 
     // Performance: Lazy load images
     if ('IntersectionObserver' in window) {
@@ -1941,7 +3356,9 @@
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     const img = entry.target;
-                    img.src = img.dataset.src || img.src;
+                    if (img.dataset.src) {
+                        img.src = img.dataset.src;
+                    }
                     img.classList.remove('loading');
                     observer.unobserve(img);
                 }
@@ -1953,65 +3370,121 @@
         });
     }
 
-    // Accessibility: Focus management for modals/overlays
-    function trapFocus(element) {
-        const focusableElements = element.querySelectorAll(
-            'a[href], button, textarea, input[type="text"], input[type="radio"], input[type="checkbox"], select'
-        );
+    // Add ripple effect to buttons
+    document.querySelectorAll('.btn').forEach(button => {
+        button.addEventListener('click', function(e) {
+            const ripple = document.createElement('span');
+            ripple.style.position = 'absolute';
+            ripple.style.width = ripple.style.height = '40px';
+            ripple.style.background = 'rgba(255,255,255,0.6)';
+            ripple.style.borderRadius = '50%';
+            ripple.style.transform = 'translate(-50%, -50%) scale(0)';
+            ripple.style.animation = 'ripple-effect 0.6s ease-out';
+            ripple.style.left = e.offsetX + 'px';
+            ripple.style.top = e.offsetY + 'px';
 
-        const firstFocusableElement = focusableElements[0];
-        const lastFocusableElement = focusableElements[focusableElements.length - 1];
+            this.appendChild(ripple);
 
-        element.addEventListener('keydown', function(e) {
-            const isTabPressed = e.key === 'Tab';
-
-            if (!isTabPressed) return;
-
-            if (e.shiftKey) {
-                if (document.activeElement === firstFocusableElement) {
-                    lastFocusableElement.focus();
-                    e.preventDefault();
-                }
-            } else {
-                if (document.activeElement === lastFocusableElement) {
-                    firstFocusableElement.focus();
-                    e.preventDefault();
-                }
-            }
+            setTimeout(() => ripple.remove(), 600);
         });
-    }
-
-    // Performance: Debounced scroll handler
-    let scrollTimeout;
-    function handleScroll() {
-        if (scrollTimeout) {
-            window.cancelAnimationFrame(scrollTimeout);
-        }
-
-        scrollTimeout = window.requestAnimationFrame(() => {
-            // Add scroll-based interactions here if needed
-        });
-    }
-
-    window.addEventListener('scroll', handleScroll, { passive: true });
-
-    // Enhanced Error Handling
-    window.addEventListener('error', function(e) {
-        console.error('JavaScript error:', e.error);
-        // Could send to analytics or error reporting service
     });
 
-    // Performance: Preload critical resources
-    const criticalResources = [
-        'https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap'
-    ];
+    // Add ripple animation
+    const style = document.createElement('style');
+    style.textContent = `
+            @keyframes ripple-effect {
+                to {
+                    transform: translate(-50%, -50%) scale(4);
+                    opacity: 0;
+                }
+            }
+        `;
+    document.head.appendChild(style);
 
-    criticalResources.forEach(url => {
-        const link = document.createElement('link');
-        link.rel = 'preload';
-        link.as = 'style';
-        link.href = url;
-        document.head.appendChild(link);
+    // Publications Carousel functionality
+    const publicationsCarouselWrapper = document.getElementById('publicationsCarouselWrapper');
+    const publicationCardWidth = 380 + 24; // card width + gap
+
+    function scrollPublicationsCarousel(direction) {
+        const scrollAmount = publicationCardWidth * 3; // Scroll 3 cards at a time
+        publicationsCarouselWrapper.scrollBy({
+            left: direction * scrollAmount,
+            behavior: 'smooth'
+        });
+    }
+
+    // Update navigation buttons for publications
+    function updatePublicationsNavButtons() {
+        const scrollLeft = publicationsCarouselWrapper.scrollLeft;
+        const scrollWidth = publicationsCarouselWrapper.scrollWidth;
+        const clientWidth = publicationsCarouselWrapper.clientWidth;
+
+        const prevButton = document.querySelector('.publications-nav-button-prev');
+        const nextButton = document.querySelector('.publications-nav-button-next');
+
+        if (prevButton && nextButton) {
+            prevButton.style.opacity = scrollLeft <= 0 ? '0.3' : '1';
+            nextButton.style.opacity = scrollLeft >= scrollWidth - clientWidth - 10 ? '0.3' : '1';
+        }
+    }
+
+    if (publicationsCarouselWrapper) {
+        publicationsCarouselWrapper.addEventListener('scroll', updatePublicationsNavButtons);
+        window.addEventListener('resize', updatePublicationsNavButtons);
+        updatePublicationsNavButtons();
+    }
+
+    // Make scrollPublicationsCarousel globally available
+    window.scrollPublicationsCarousel = scrollPublicationsCarousel;
+
+    // Initialize on DOM loaded
+    document.addEventListener('DOMContentLoaded', function() {
+        // Initialize testimonials carousel
+        const testimonialCards = document.querySelectorAll('.testimonial-card');
+        const carouselDots = document.querySelectorAll('.carousel-dot');
+        let currentSlide = 0;
+
+        function showSlide(index) {
+            if (testimonialCards.length === 0 || carouselDots.length === 0) return;
+
+            // Hide all cards
+            testimonialCards.forEach(card => {
+                card.classList.remove('active');
+                card.setAttribute('aria-hidden', 'true');
+            });
+
+            carouselDots.forEach(dot => {
+                dot.classList.remove('active');
+                dot.setAttribute('aria-selected', 'false');
+            });
+
+            // Show current card
+            if (testimonialCards[index]) {
+                testimonialCards[index].classList.add('active');
+                testimonialCards[index].setAttribute('aria-hidden', 'false');
+            }
+
+            if (carouselDots[index]) {
+                carouselDots[index].classList.add('active');
+                carouselDots[index].setAttribute('aria-selected', 'true');
+            }
+
+            currentSlide = index;
+        }
+
+        // Add click handlers to dots
+        carouselDots.forEach((dot, index) => {
+            dot.addEventListener('click', function(e) {
+                e.preventDefault();
+                e.stopPropagation();
+                showSlide(index);
+            });
+        });
+
+        // Show first testimonial
+        if (testimonialCards.length > 0) {
+            showSlide(0);
+        }
     });
 </script>
 </body>
